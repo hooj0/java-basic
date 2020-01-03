@@ -3,14 +3,15 @@ package io.github.hooj0.collection.base;
 import java.util.Collection;
 import java.util.HashSet;
 
+/**
+ * 集合循环测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 4, 2011 8:49:09 PM
+ */
 public class ForeachCollectionTest {
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Jan 4, 2011 8:49:09 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Collection<String> books = new HashSet<String>();
 		books.add("Java");
