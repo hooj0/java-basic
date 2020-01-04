@@ -4,13 +4,16 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
+/**
+ * 性能测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 10, 2011 10:59:40 PM
+ */
 public class PerformanceTest {
 
 	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 10, 2011 10:59:40 PM
-	 * @param args
 	 * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	 * 				实现机制			随机访问排名	迭代操作排名	插入操作排名	删除操作排名
 	 * ----------------------------------------------------------------------------
