@@ -1,5 +1,12 @@
 package io.github.hooj0.annotation.base;
 
+/**
+ * 覆盖注释
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 28, 2010 10:04:33 PM
+ */
 @SuppressWarnings("ALL")
 public class OverrideAnnotation {
 	
@@ -17,12 +24,6 @@ public class OverrideAnnotation {
 		return this.getClass().getName();
 	}
 	
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Oct 28, 2010 10:04:33 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		OverrideAnnotation oa = new OverrideAnnotation();
 		System.out.println(oa.toString());
