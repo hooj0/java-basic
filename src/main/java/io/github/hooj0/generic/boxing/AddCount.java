@@ -3,14 +3,15 @@ package io.github.hooj0.generic.boxing;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 添加计数
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 7, 2010 11:45:19 AM
+ */
 public class AddCount {
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Oct 7, 2010 11:45:19 AM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		String stat = "if it is to be it is up to me to do the watusi";
 		String[] words = stat.split(" ");
