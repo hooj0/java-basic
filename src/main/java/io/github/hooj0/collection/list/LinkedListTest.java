@@ -1,15 +1,18 @@
 package io.github.hooj0.collection.list;
 
+import io.github.hooj0.BasedTests;
+
 import java.util.LinkedList;
 
-public class LinkedListTest {
+/**
+ * 链表测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 10, 2011 10:17:30 PM
+ */
+public class LinkedListTest extends BasedTests {
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Jan 10, 2011 10:17:30 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		LinkedList<String> books = new LinkedList<String>();
 		//加入字符串到队里尾部
@@ -19,18 +22,18 @@ public class LinkedListTest {
 		//添加元素到队里头部
 		books.offerFirst("RIA");
 		for (int i = 0; i < books.size(); i++) {
-			System.out.println(books.get(i));
+			out(books.get(i));
 		}
 		//访问并不删除队列的第一个元素
-		System.out.println(books.peekFirst());
+		out(books.peekFirst());
 		//访问并不删除队列的最后个元素
-		System.out.println(books.peekLast());
+		out(books.peekLast());
 		//采用出栈方式将第一个栈pop出列
-		System.out.println(books.pop());
-		System.out.println(books);
+		out(books.pop());
+		out(books);
 		//访问、并删除最后一个元素
-		System.out.println(books.pollLast());
-		System.out.println(books);
+		out(books.pollLast());
+		out(books);
 	}
 	/**
 	 * ArrayList/Vector内部采用数组的形式保存集合中的元素
