@@ -7,7 +7,15 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Properties;
 
+/**
+ * 对象池工厂
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 4, 2010 4:16:07 PM
+ */
 public class PoolFactory {
+
 	private Map<String, Object> pools = new HashMap<String, Object>();
 	private Properties config = new Properties();
 	
@@ -76,13 +84,6 @@ public class PoolFactory {
 		return pools.get(name);
 	}
 	
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Oct 4, 2010 4:16:07 PM
-	 * @param args
-	 * @throws Exception 
-	 */
 	public static void main(String[] args) throws Exception {
 		PoolFactory factory = new PoolFactory();
 		factory.init("F:\\Example Exercise\\JAVA\\JavaClassLoader\\src\\com\\hoo\\base\\instance\\user.txt");
