@@ -3,14 +3,15 @@ package io.github.hooj0.generic.boxing;
 import java.util.ArrayList;
 import java.util.Collection;
 
+/**
+ * 装箱拆箱
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 7, 2010 11:39:20 AM
+ */
 public class BoxCase {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Oct 7, 2010 11:39:20 AM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int num = 12;
 		Collection<Integer> c = new ArrayList<Integer>();
