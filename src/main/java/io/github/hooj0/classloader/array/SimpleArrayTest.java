@@ -4,6 +4,13 @@ import io.github.hooj0.BasedTests;
 
 import java.lang.reflect.Array;
 
+/**
+ * 数组测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 4, 2010 5:18:12 PM
+ */
 @SuppressWarnings("ALL")
 public class SimpleArrayTest extends BasedTests {
 
