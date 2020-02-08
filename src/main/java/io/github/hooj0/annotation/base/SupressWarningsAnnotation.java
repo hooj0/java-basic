@@ -3,15 +3,16 @@ package io.github.hooj0.annotation.base;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 抑制警告注释
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 28, 2010 10:20:22 PM
+ */
 @SuppressWarnings("ALL")
 public class SupressWarningsAnnotation {
 	
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Oct 28, 2010 10:20:22 PM
-	 * @param args
-	 */
 	@SuppressWarnings({"unchecked", "unused"})
 	public static void main(String[] args) {
 		/*
