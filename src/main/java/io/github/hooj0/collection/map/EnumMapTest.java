@@ -1,17 +1,21 @@
 package io.github.hooj0.collection.map;
 
+import io.github.hooj0.BasedTests;
 import io.github.hooj0.collection.base.Season;
 
 import java.util.EnumMap;
 
 
-public class EnumMapTest {
+/**
+ * enum测验
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 13, 2011 10:53:09 PM
+ */
+public class EnumMapTest extends BasedTests {
 
 	/**
-	 *
-	 * @author hoojo
-	 * @createDate Jan 13, 2011 10:53:09 PM
-	 * @param args
 	 * key只能为枚举类型
 	 */
 	public static void main(String[] args) {
@@ -19,6 +23,6 @@ public class EnumMapTest {
 		enumMap.put(Season.SPRING, "春暖花开");
 		enumMap.put(Season.SUMMER, "挥汗如雨");
 		
-		System.out.println(enumMap);
+		out(enumMap);
 	}
 }
