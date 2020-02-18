@@ -4,14 +4,15 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Iterator;
 
+/**
+ * 迭代器测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 4, 2011 8:29:09 PM
+ */
 public class IteratorTest {
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Jan 4, 2011 8:29:09 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		//创建一个集合
 		Collection<String> books = new HashSet<String>();
