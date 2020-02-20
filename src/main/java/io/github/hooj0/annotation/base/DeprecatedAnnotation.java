@@ -1,5 +1,12 @@
 package io.github.hooj0.annotation.base;
 
+/**
+ * 弃用注释
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 28, 2010 10:10:00 PM
+ */
 @SuppressWarnings("ALL")
 public class DeprecatedAnnotation {
 	
@@ -19,12 +26,6 @@ public class DeprecatedAnnotation {
 		System.out.println(string + "this is doSomething!");
 	}
 	
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Oct 28, 2010 10:10:00 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		DeprecatedAnnotation da = new DeprecatedAnnotation();
 		da.doSomething();
