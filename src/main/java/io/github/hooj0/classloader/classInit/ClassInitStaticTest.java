@@ -7,7 +7,7 @@ package io.github.hooj0.classloader.classInit;
  * @version 1.0
  * @date Sep 27, 2010 10:34:51 PM
  */
-public class StaticClassLoaderTest {
+public class ClassInitStaticTest {
     static {
         //使用静态初始块为b变量赋值
         b = 6;
@@ -27,9 +27,9 @@ public class StaticClassLoaderTest {
     static int c;
 
     public static void main(String[] args) {
-        System.out.println(StaticClassLoaderTest.a);
-        System.out.println(StaticClassLoaderTest.b);
-        System.out.println(StaticClassLoaderTest.temp);
+        System.out.println(ClassInitStaticTest.a);
+        System.out.println(ClassInitStaticTest.b);
+        System.out.println(ClassInitStaticTest.temp);
         /**
          * code先b被静态初始块赋值，此时静态块b=6；当程序继续向下执行，在code（1）处时
          * 这行代码也属于静态初始块，所以b被再次赋值。
