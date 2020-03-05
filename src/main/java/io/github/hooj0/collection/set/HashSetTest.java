@@ -3,14 +3,15 @@ package io.github.hooj0.collection.set;
 import java.util.HashSet;
 import java.util.Iterator;
 
+/**
+ * 散列集测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 9, 2011 6:22:01 PM
+ */
 public class HashSetTest {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 9, 2011 4:07:45 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		HashSet<R> set = new HashSet<R>();
 		set.add(new R(5));
