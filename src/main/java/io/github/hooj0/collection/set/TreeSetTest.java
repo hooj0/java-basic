@@ -3,14 +3,15 @@ package io.github.hooj0.collection.set;
 import java.util.Date;
 import java.util.TreeSet;
 
+/**
+ * 树set集合测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 9, 2011 4:48:46 PM
+ */
 public class TreeSetTest {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 9, 2011 4:48:46 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		TreeSet<Integer> n = new TreeSet<Integer>();
 		n.add(5);
