@@ -2,7 +2,15 @@ package io.github.hooj0.generic.print;
 
 import io.github.hooj0.generic.enums.Student;
 
+/**
+ * printf
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 17:26:44
+ */
 public class Printf {
+
 	public static void main(String[] args) {
 		int i = 0;
 		for (Student s : Student.values()) {
