@@ -1,5 +1,12 @@
 package io.github.hooj0.generic.enums;
 
+/**
+ * 学生
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 17:19:47
+ */
 public enum Student {
 	/**
 	 * 下面每个枚举元素，相当于当前枚举Student的一个实例。括号中的相当于实例的构造，传递的参数
