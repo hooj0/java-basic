@@ -2,13 +2,16 @@ package io.github.hooj0.collection.map;
 
 import java.util.WeakHashMap;
 
+/**
+ * 弱散列映射测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 13, 2011 10:16:46 PM
+ */
 public class WeakHashMapTest {
 
 	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 13, 2011 10:16:46 PM
-	 * @param args
 	 * 与HashMap的区别在于，HashMap的key保留对实际对象的强引用
 	 * 这意味着只要该HashMap对象不被摧毁，该HashMap对象所有key所用的
 	 * 对象不会被垃圾回收，HashMap也不会自动删除这些key所对应的key-value对象；
