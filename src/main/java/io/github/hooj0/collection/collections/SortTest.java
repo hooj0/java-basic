@@ -1,16 +1,19 @@
 package io.github.hooj0.collection.collections;
 
+import io.github.hooj0.BasedTests;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class SortTest {
+/**
+ * 排序测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 14, 2011 8:43:16 PM
+ */
+public class SortTest extends BasedTests {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 14, 2011 8:43:16 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		ArrayList<Integer> nums = new ArrayList<Integer>();
 		nums.add(2);
@@ -18,18 +21,18 @@ public class SortTest {
 		nums.add(3);
 		nums.add(0);
 		
-		System.out.println(nums);
+		out(nums);
 		
 		//排序
 		Collections.sort(nums);
-		System.out.println(nums);
+		out(nums);
 		
 		//翻转次序
 		Collections.reverse(nums);
-		System.out.println(nums);
+		out(nums);
 		
 		//随机排序
 		Collections.shuffle(nums);
-		System.out.println(nums);
+		out(nums);
 	}
 }
