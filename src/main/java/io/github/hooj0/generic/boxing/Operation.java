@@ -1,6 +1,14 @@
 package io.github.hooj0.generic.boxing;
 
+/**
+ * 操作
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 17:16:20
+ */
 public class Operation {
+
 	public static void main(String[] args) {
 		Integer a = 100;//在-127~128范围，相当于int
 		Integer b = 100;
