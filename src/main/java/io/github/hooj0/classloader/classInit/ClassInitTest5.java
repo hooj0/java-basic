@@ -1,6 +1,13 @@
 package io.github.hooj0.classloader.classInit;
 
-public class Test5 {
+/**
+ * 类init test5
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/08 09:14:40
+ */
+public class ClassInitTest5 {
 	public static void main(String[] args) {
 		System.out.println(Temp.timed);
 		/**
