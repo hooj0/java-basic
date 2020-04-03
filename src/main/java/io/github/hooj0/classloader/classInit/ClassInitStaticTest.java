@@ -1,6 +1,13 @@
 package io.github.hooj0.classloader.classInit;
 
-public class Test2 {
+/**
+ * 静态类装入器测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Sep 27, 2010 10:34:51 PM
+ */
+public class StaticClassLoaderTest {
     static {
         //使用静态初始块为b变量赋值
         b = 6;
@@ -19,17 +26,10 @@ public class Test2 {
 
     static int c;
 
-    /**
-     * 
-     *
-     * @param args
-     * @author hoojo
-     * @createDate Sep 27, 2010 10:34:51 PM
-     */
     public static void main(String[] args) {
-        System.out.println(Test2.a);
-        System.out.println(Test2.b);
-        System.out.println(Test2.temp);
+        System.out.println(StaticClassLoaderTest.a);
+        System.out.println(StaticClassLoaderTest.b);
+        System.out.println(StaticClassLoaderTest.temp);
         /**
          * code先b被静态初始块赋值，此时静态块b=6；当程序继续向下执行，在code（1）处时
          * 这行代码也属于静态初始块，所以b被再次赋值。
