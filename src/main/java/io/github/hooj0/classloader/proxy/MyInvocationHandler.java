@@ -4,13 +4,13 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * invokation处理程序
+ * 调用处理程序
  *
  * @author hoojo
  * @version 1.0
- * @date 2022/02/08 09:46:37
+ * @date 2022/02/08 09:47:54
  */
-public class MyInvokationHandler implements InvocationHandler {
+public class MyInvocationHandler implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
@@ -20,6 +20,7 @@ public class MyInvokationHandler implements InvocationHandler {
                 System.out.println(o);
             }
         }
+
         return null;
     }
 }
