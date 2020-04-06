@@ -1,6 +1,14 @@
 package io.github.hooj0.generic.generictype;
 
+/**
+ * 基础商务
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 17:22:16
+ */
 public class BaseBiz<T> {
+
 	private BaseDao<T> dao;
 
 	public BaseDao<T> getDao() {
