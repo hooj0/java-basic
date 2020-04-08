@@ -7,7 +7,15 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
+/**
+ * 对象池工厂
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 4, 2010 1:29:12 PM
+ */
 public class ObjectPoolFactory {
+
 	//对象池，key是对象名称，value是实际对象
 	private Map<String, Object> objectPool = new HashMap<String, Object>();
 	
@@ -23,6 +31,7 @@ public class ObjectPoolFactory {
 			fis = new FileInputStream(fileName);
 			Properties pro = new Properties();
 			pro.load(fis);
+
 			Set<Object> set = pro.keySet();
 			Iterator<Object> iter = set.iterator();
 			while(iter.hasNext()) {
@@ -47,16 +56,9 @@ public class ObjectPoolFactory {
 		return objectPool.get(name);
 	}
 	
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Oct 4, 2010 1:29:12 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		ObjectPoolFactory factory = new ObjectPoolFactory();
 		//factory.initPool("F:\\Example Exercise\\JAVA\\JavaClassLoader\\src\\com\\hoo\\base\\instance\\create.txt");
 		System.out.println(factory.getObject("test"));
 	}
-
 }
