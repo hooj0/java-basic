@@ -1,5 +1,12 @@
 package io.github.hooj0.annotation.other;
 
+/**
+ * 目标测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/08 10:03:16
+ */
 @SuppressWarnings("ALL")
 @TargetAnnotation
 public class TargetTest {
@@ -14,8 +21,5 @@ public class TargetTest {
 		@TargetAnnotation2
 		String name = "haha";
 		System.out.println(name + "test doSomething");
-	}
-	public static void main(String[] args) {
-		
 	}
 }
