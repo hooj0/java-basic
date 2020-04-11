@@ -1,5 +1,12 @@
 package io.github.hooj0.generic.generictype;
 
+/**
+ * 泛型转换
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 17:22:31
+ */
 public class GenericCase<T> {
 	private T t;
 
