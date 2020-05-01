@@ -6,16 +6,15 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * 配置文件测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 12, 2011 10:51:35 PM
+ */
 public class PropertiesTest {
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Jan 12, 2011 10:51:35 PM
-	 * @param args
-	 * @throws IOException 
-	 * @throws FileNotFoundException 
-	 */
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		Properties props = new Properties();
 		props.setProperty("username", "jack");
