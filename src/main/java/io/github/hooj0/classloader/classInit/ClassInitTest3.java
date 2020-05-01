@@ -1,6 +1,6 @@
 package io.github.hooj0.classloader.classInit;
 
-class Test4 {
+class ClassInitTest4 {
 	
 	static {
 		System.out.println("静态初始化块……");
@@ -9,7 +9,15 @@ class Test4 {
 	final static String temp = "这个是常量";
 }
 
-public class Test3 {
+/**
+ * 类init test3
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/08 09:14:03
+ */
+public class ClassInitTest3 {
+
 	public static void main(String[] args) {
 		/**
 		 * 系统首次使用某个类的和接口的时候，系统就会初始化该类和接口
@@ -26,6 +34,6 @@ public class Test3 {
 		 * 编译的常量。当程序使用编译的常量时，系统会认为该类被动使用，所以不会导致该类初始化。
 		 */
 		//访问常量temp，静态块没有执行;因为编译期间就可以得到值，故该类无需初始化
-		System.out.println(Test4.temp);
+		System.out.println(ClassInitTest4.temp);
 	}
 }
