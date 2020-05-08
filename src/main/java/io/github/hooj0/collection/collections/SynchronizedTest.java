@@ -11,14 +11,15 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
+/**
+ * 同步测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 14, 2011 9:31:07 PM
+ */
 public class SynchronizedTest {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 14, 2011 9:31:07 PM
-	 * @param args
-	 */
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Collection<String> c = Collections.synchronizedCollection(new ArrayList<String>());
