@@ -6,6 +6,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * 不可变集合测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 17:49:13
+ */
 public class UnmodifiableTest {
 
 	public static void main(String[] args) {
@@ -25,6 +32,5 @@ public class UnmodifiableTest {
 		emptyList.add("test");
 		unmodifiableSet.add("DB");
 		unmodifiableMap.put("高数", 88);
-		
 	}
 }
