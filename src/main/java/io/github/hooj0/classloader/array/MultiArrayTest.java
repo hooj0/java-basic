@@ -4,16 +4,16 @@ import io.github.hooj0.BasedTests;
 
 import java.lang.reflect.Array;
 
+/**
+ * 多维数组测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 4, 2010 5:18:12 PM
+ */
 @SuppressWarnings("ALL")
 public class MultiArrayTest extends BasedTests {
 
-    /**
-     * 
-     *
-     * @param args
-     * @author hoojo
-     * @createDate Oct 4, 2010 5:18:12 PM
-     */
     public static void main(String[] args) {
         //三维数组
         Object arr = Array.newInstance(String.class, new int[]{ 3, 4, 10 });
