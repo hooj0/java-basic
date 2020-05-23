@@ -1,5 +1,12 @@
 package io.github.hooj0.generic.enums;
 
+/**
+ * 枚举测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 7, 2010 12:11:11 PM
+ */
 public class EnumTest {
 	
 	public static void operation(Tank t) {
@@ -16,15 +23,11 @@ public class EnumTest {
 			case FIRE: 
 				System.out.println("开火");
 				break;
+			default:
+				break;
 		}
 	}
 	
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Oct 7, 2010 12:11:11 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		operation(Tank.FIRE);
 	}
