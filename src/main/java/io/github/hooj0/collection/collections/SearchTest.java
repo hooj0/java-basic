@@ -1,16 +1,19 @@
 package io.github.hooj0.collection.collections;
 
+import io.github.hooj0.BasedTests;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class SearchTest {
+/**
+ * 搜索测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 14, 2011 8:58:55 PM
+ */
+public class SearchTest extends BasedTests {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 14, 2011 8:58:55 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		ArrayList<Integer> nums = new ArrayList<Integer>();
 		nums.add(2);
@@ -18,24 +21,24 @@ public class SearchTest {
 		nums.add(3);
 		nums.add(0);
 		
-		System.out.println(nums);
+		out(nums);
 		//输出最大的元素
-		System.out.println("max:" + Collections.max(nums));
+		out("max:" + Collections.max(nums));
 		//输出最小的元素
-		System.out.println("min:" + Collections.min(nums));
+		out("min:" + Collections.min(nums));
 		
 		//将nums中的0使用1来代替
 		Collections.replaceAll(nums, 0, 1);
-		System.out.println("replace:" + nums);
+		out("replace:" + nums);
 		
 		//判断-5在nums中出现次数
-		System.out.println("count:" + Collections.frequency(nums, -5));
+		out("count:" + Collections.frequency(nums, -5));
 		
 		//对nums集合排序
 		Collections.sort(nums);
-		System.out.println("sort:" + nums);
+		out("sort:" + nums);
 		
 		//只有排序后的集合才能用二分法查询，输出3
-		System.out.println(Collections.binarySearch(nums, 3));
+		out(Collections.binarySearch(nums, 3));
 	}
 }
