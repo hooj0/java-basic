@@ -1,18 +1,20 @@
 package io.github.hooj0.collection.base;
 
+import io.github.hooj0.BasedTests;
+
 import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.Stack;
 import java.util.Vector;
 
-public class EnumerationTest {
+/**
+ * 集合枚举测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 14, 2011 10:23:02 PM
+ */
+public class EnumerationTest extends BasedTests {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 14, 2011 10:23:02 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Vector<String> v = new Vector<String>();
 		v.add("Struts2");
@@ -24,14 +26,14 @@ public class EnumerationTest {
 		scores.put("英语", 78);
 		Enumeration<String> em = v.elements();
 		while (em.hasMoreElements()) {
-			System.out.println(em.nextElement());
+			out(em.nextElement());
 		}
 		
 		Enumeration<String> keyem = scores.keys();
 		while (keyem.hasMoreElements()) {
 			String key = keyem.nextElement();
 			System.out.print(key + "--->");
-			System.out.println(scores.get(key));
+			out(scores.get(key));
 		}
 	}
 }
