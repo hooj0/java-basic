@@ -4,14 +4,15 @@ import io.github.hooj0.collection.base.Season;
 
 import java.util.EnumSet;
 
+/**
+ * 枚举集测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 9, 2011 6:22:01 PM
+ */
 public class EnumSetTest {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 9, 2011 6:22:01 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		EnumSet<Season> e = EnumSet.allOf(Season.class);
 		System.out.println(e);
