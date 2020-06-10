@@ -1,22 +1,23 @@
 package io.github.hooj0.classloader.classInit;
 
+/**
+ * 类init test2
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Sep 27, 2010 11:29:52 PM
+ */
 @SuppressWarnings("ALL")
-public class TestInit extends ClassB {
+public class ClassInitTest2 extends ClassB {
 
-	private TestInit() {
+	private ClassInitTest2() {
 		System.out.println("init TestInit");
 	}
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Sep 27, 2010 11:29:52 PM
-	 * @param args
-	 */
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-		ClassB b = new TestInit();
-		ClassA a = new TestInit();
+		ClassB b = new ClassInitTest2();
+		ClassA a = new ClassInitTest2();
 		//TestInit t = new TestInit();
 		/**
 		 * 先初始化父类，再是子类；
