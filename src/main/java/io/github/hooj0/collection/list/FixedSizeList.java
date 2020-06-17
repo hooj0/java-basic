@@ -3,14 +3,15 @@ package io.github.hooj0.collection.list;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 固定大小列表
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 10, 2011 9:50:20 PM
+ */
 public class FixedSizeList {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 10, 2011 9:50:20 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		List<String> fixedList = Arrays.asList("Struts2", "Java Base");
 		System.out.println(fixedList.getClass());
