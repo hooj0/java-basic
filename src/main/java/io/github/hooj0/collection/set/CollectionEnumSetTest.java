@@ -7,14 +7,15 @@ import java.util.EnumSet;
 import java.util.HashSet;
 
 
+/**
+ * 集合枚举集测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 9, 2011 6:43:06 PM
+ */
 public class CollectionEnumSetTest {
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Jan 9, 2011 6:43:06 PM
-	 * @param args
-	 */
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		Collection c = new HashSet();
