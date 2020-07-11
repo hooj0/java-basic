@@ -1,22 +1,24 @@
 package io.github.hooj0.classloader.classLoader;
 
+import io.github.hooj0.BasedTests;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.Enumeration;
 
-public class ClassLoaderProTest {
+/**
+ * 类装入器专业测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Sep 28, 2010 7:09:37 PM
+ */
+public class ClassLoaderProTest extends BasedTests {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Sep 28, 2010 7:09:37 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		//获取系统类加载器 
 		ClassLoader systemLoader = ClassLoader.getSystemClassLoader();
-		System.out.println("系统加载器：" + systemLoader);
+		out("系统加载器：" + systemLoader);
 		
 		/**
 		 * 获取系统类加载器的加载路径——通常由ClaaaPath环境变量直到；
@@ -25,13 +27,13 @@ public class ClassLoaderProTest {
 		 */
 		Enumeration<URL> eml = systemLoader.getResources("");
 		while (eml.hasMoreElements()) {
-			System.out.println(eml.nextElement());
+			out(eml.nextElement());
 		}
 		//获得系统类加载器的父类加载器——得到扩展类加载器
 		ClassLoader extensionLoader = systemLoader.getParent();
-		System.out.println("扩展类加载器：" + extensionLoader);
-		System.out.println("扩展类加载器的加载路径:" + System.getProperty("java.ext.dirs"));
-		System.out.println("扩展类加载器parent：" + extensionLoader.getParent());
+		out("扩展类加载器：" + extensionLoader);
+		out("扩展类加载器的加载路径:" + System.getProperty("java.ext.dirs"));
+		out("扩展类加载器parent：" + extensionLoader.getParent());
 		/**
 		 * 类加载器的Class大概要经过8个步骤：
 		 * 1、检测此Class是否载入过（即在缓存中是否有此Class），如果有则直接进入8步
