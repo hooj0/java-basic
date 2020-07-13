@@ -1,7 +1,12 @@
 package io.github.hooj0.generic.source;
 
-import java.util.UUID;
-
+/**
+ * 测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 17:27:26
+ */
 public class Test {
 	public static void main(String[] args) {
 		StringCase foo1 = new StringCase();
