@@ -1,5 +1,12 @@
 package io.github.hooj0.generic.generictype;
 
+/**
+ * 泛型类型
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 6, 2010 9:30:02 PM
+ */
 public class GenericType<T, F> {
 	private T too;
 	private F foo;
@@ -20,12 +27,6 @@ public class GenericType<T, F> {
 		this.foo = foo;
 	}
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Oct 6, 2010 9:30:02 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		GenericType<String, Integer> gt = new GenericType<String, Integer>();
 		gt.setFoo(new Integer(22));
