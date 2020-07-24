@@ -1,18 +1,20 @@
 package io.github.hooj0.annotation.reflection;
 
+import io.github.hooj0.BasedTests;
+
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
+/**
+ * 反射测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 30, 2010 4:18:19 PM
+ */
 @SuppressWarnings("ALL")
-public class ReflectionTest {
+public class ReflectionTest extends BasedTests {
 
-    /**
-     *
-     *
-     * @param args
-     * @author hoojo
-     * @createDate Oct 30, 2010 4:18:19 PM
-     */
     public static void main(String[] args) throws Exception {
         Class<Target> clazz = Target.class;
 
@@ -29,22 +31,23 @@ public class ReflectionTest {
             String name = anno.name();
             int[] number = anno.number();
             String[] value = anno.value();
-            System.out.println("name:" + name);
+            out("name:" + name);
 
             for (int n : number) {
-                System.out.println("number:" + n);
+                out("number:" + n);
             }
             for (String v : value) {
-                System.out.println("value:" + v);
+                out("value:" + v);
             }
         }
 
         Annotation[] annotations = m.getAnnotations();
         for (Annotation a : annotations) {
-            System.out.println(a.annotationType().getName());
+            out(a.annotationType().getName());
+
             Method[] methods = a.annotationType().getMethods();
             for (Method mt : methods) {
-                System.out.println(mt.getName());
+                out(mt.getName());
             }
         }
         /**
