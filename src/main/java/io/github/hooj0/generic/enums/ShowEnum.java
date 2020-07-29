@@ -1,6 +1,14 @@
 package io.github.hooj0.generic.enums;
 
+/**
+ * 显示枚举
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 17:19:32
+ */
 public class ShowEnum {
+
 	public static void main(String[] args) {
 		//printEnum(Color.valueOf("RED"));
 		//printEnum(Color.valueOf("WHITE"));
