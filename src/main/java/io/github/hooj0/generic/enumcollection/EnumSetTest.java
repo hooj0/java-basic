@@ -5,14 +5,15 @@ import io.github.hooj0.generic.enums.Student;
 import java.util.EnumSet;
 import java.util.Iterator;
 
+/**
+ * 枚举集测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 16, 2010 2:28:16 PM
+ */
 public class EnumSetTest {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Oct 16, 2010 2:28:16 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		EnumSet<Student> set = EnumSet.of(Student.EIGHT, Student.NINE);
 		showSet(set);
