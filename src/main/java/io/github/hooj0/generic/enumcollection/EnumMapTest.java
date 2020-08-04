@@ -7,14 +7,15 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * EnumMap
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 16, 2010 2:49:36 PM
+ */
 public class EnumMapTest {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Oct 16, 2010 2:49:36 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Map<Student, String> map = new EnumMap<Student, String>(Student.class);
 		map.put(Student.TEN, "第十");
@@ -36,5 +37,4 @@ public class EnumMapTest {
 			System.out.println(iter.next().getName());
 		}
 	}
-
 }
