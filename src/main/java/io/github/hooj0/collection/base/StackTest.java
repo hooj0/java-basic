@@ -1,15 +1,18 @@
 package io.github.hooj0.collection.base;
 
+import io.github.hooj0.BasedTests;
+
 import java.util.Stack;
 
-public class StackTest {
+/**
+ * 堆栈测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 9, 2011 10:49:10 PM
+ */
+public class StackTest extends BasedTests {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 9, 2011 10:49:10 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		//Stack继承了Vector
 		Stack<String> stack = new Stack<String>();
@@ -17,13 +20,13 @@ public class StackTest {
 		stack.add("Struts");
 		stack.add("ORM");
 		
-		System.out.println(stack);
+		out(stack);
 		//第一个元素，并不pop出栈
-		System.out.println(stack.peek());
-		System.out.println(stack);
+		out(stack.peek());
+		out(stack);
 		
-		System.out.println(stack.pop());//出栈
-		System.out.println(stack);
+		out(stack.pop());//出栈
+		out(stack);
 	}
 	/**
 	 * ArrayList和Vector的区别：
