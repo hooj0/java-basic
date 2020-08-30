@@ -1,14 +1,23 @@
 package io.github.hooj0.annotation.custom;
 
+import io.github.hooj0.BasedTests;
+
+/**
+ * 注释测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/08 10:00:07
+ */
 @SuppressWarnings("ALL")
-public class AnnotationTest {
+public class AnnotationTest extends BasedTests {
 	
 	/*
 	 * 使用自定义annotation
 	 */
 	@CustomAnnotation
 	public void method() {
-		System.out.println("this is method");
+		out("this is method");
 	}
 	
 	/*
@@ -18,7 +27,7 @@ public class AnnotationTest {
 	 */
 	@CustomAnnotationField(field = "testField")
 	public void method2() {
-		System.out.println("this is method 2");
+		out("this is method 2");
 	}
 	
 	/*
@@ -26,7 +35,7 @@ public class AnnotationTest {
 	 */
 	@CustomAnnotationDefault("defaultValue")
 	public void method3() {
-		System.out.println("this is method 3");
+		out("this is method 3");
 	}
 	
 	/*
@@ -36,7 +45,7 @@ public class AnnotationTest {
 	@SuppressWarnings(value = "unchecked")
 	@CustomAnnotationDefault(value = "defaultValue")
 	public void method4() {
-		System.out.println("this is method 4");
+		out("this is method 4");
 	}
 	
 	/*
@@ -45,7 +54,7 @@ public class AnnotationTest {
 	 */
 	@CustomAnnotationCustomField(name = "张三", age = 22, customField = "自定义")
 	public void method5() {
-		System.out.println("this is method 5");
+		out("this is method 5");
 	}
 	
 	/*
@@ -55,7 +64,7 @@ public class AnnotationTest {
 	 */
 	@CustomAnnotationDefaultValue
 	public void method6() {
-		System.out.println("this is method 6");
+		out("this is method 6");
 	}
 	
 	/*
@@ -63,7 +72,7 @@ public class AnnotationTest {
 	 */
 	@CustomAnnotationDefaultValue("abc")
 	public void method7() {
-		System.out.println("this is method 7");
+		out("this is method 7");
 	}
 	
 	/*
@@ -71,7 +80,7 @@ public class AnnotationTest {
 	 */
 	@CustomAnnotationDefaultValue(age = 11)
 	public void method8() {
-		System.out.println("this is method 8");
+		out("this is method 8");
 	}
 	
 	/*
@@ -81,7 +90,7 @@ public class AnnotationTest {
 	 */
 	@CustomAnnotationFieldType(ages = {22, 33}, code = CharCode.B, value = "abc")
 	public void method9() {
-		System.out.println("this is method 9");
+		out("this is method 9");
 	}
 	
 	/**
