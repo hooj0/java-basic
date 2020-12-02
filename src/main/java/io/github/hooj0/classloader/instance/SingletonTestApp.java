@@ -1,12 +1,14 @@
 package io.github.hooj0.classloader.instance;
 
-public class Test2 {
-	/**
-	 * 单例
-	 * @author hoojo
-	 * @createDate Oct 7, 2010 2:13:45 PM
-	 * @param args
-	 */
+/**
+ * 单体测试应用程序
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 7, 2010 2:13:45 PM
+ */
+public class SingletonTestApp {
+
 	public static void main(String[] args) {
 		//new Test();
 		SingletonTest t = SingletonTest.getInstance();
