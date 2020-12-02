@@ -3,6 +3,13 @@ package io.github.hooj0.collection.set;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * set无序、不容许重复元素测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 9, 2011 3:24:05 PM
+ */
 public class SetTest {
 
 	/**
@@ -11,9 +18,6 @@ public class SetTest {
 	 * HashSet、TreeSet、EnumSet线程不安全
 	 * 当用多线程操作的时候，要用synchronizedSortedSet包装Set集合
 	 * SortedSet set = Collections.synchronizedSortedSet(new TreeSet(...));
-	 * @author hoojo
-	 * @createDate Jan 9, 2011 3:24:05 PM
-	 * @param args
 	 */
 	public static void main(String[] args) {
 		Set<String> books = new HashSet<String>();
