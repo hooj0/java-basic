@@ -1,5 +1,12 @@
 package io.github.hooj0.generic.generictype;
 
+/**
+ * 简单集合
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 6, 2010 9:34:27 PM
+ */
 @SuppressWarnings("unchecked")
 public class SimpleCollection<T> {
 	private T[] array;
@@ -26,12 +33,6 @@ public class SimpleCollection<T> {
 		return index;
 	}
 	
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Oct 6, 2010 9:34:27 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		SimpleCollection<String> arr = new SimpleCollection<String>();
 		for (int i = 0; i < 10; i++) {
