@@ -1,17 +1,20 @@
 package io.github.hooj0.collection.list;
 
+import io.github.hooj0.BasedTests;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
-public class ListIteratorTest {
+/**
+ * 列表迭代器测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 9, 2011 9:34:15 PM
+ */
+public class ListIteratorTest extends BasedTests {
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Jan 9, 2011 9:34:15 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		String[] books = { "Struts2", "JavaBase" };
 		
@@ -22,14 +25,14 @@ public class ListIteratorTest {
 		
 		ListIterator<String> iter = list.listIterator();
 		while (iter.hasNext()) {
-			System.out.println(iter.next());
+			out(iter.next());
 			iter.add("=======");
-			//System.out.println("##########");
+			//out("##########");
 		}
-		System.out.println("==下面开始方向迭代==");
+		out("==下面开始方向迭代==");
 		while (iter.hasPrevious()) {
-			//System.out.println(iter.previousIndex());
-			System.out.println(iter.previous());
+			//out(iter.previousIndex());
+			out(iter.previous());
 		}
 	}
 }
