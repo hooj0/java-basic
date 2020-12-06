@@ -1,13 +1,14 @@
 package io.github.hooj0.exception;
 
+/**
+ * 捕获异常测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Mar 3, 2011 10:06:48 PM
+ */
 public class CatchDivTest {
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Mar 3, 2011 10:06:48 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		try {
 			int a = Integer.parseInt("22");
