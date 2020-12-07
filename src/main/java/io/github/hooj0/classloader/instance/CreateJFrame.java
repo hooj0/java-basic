@@ -1,18 +1,17 @@
 package io.github.hooj0.classloader.instance;
 
+import javax.swing.*;
 import java.lang.reflect.Constructor;
 
-import javax.swing.JFrame;
-
+/**
+ * 创建jframe
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Oct 4, 2010 4:02:52 PM
+ */
 public class CreateJFrame {
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Oct 4, 2010 4:02:52 PM
-	 * @param args
-	 * @throws ClassNotFoundException 
-	 */
 	public static void main(String[] args) throws Exception {
 		//获取jframe的class对象
 		Class<?> jframeClazz = Class.forName("javax.swing.JFrame");
