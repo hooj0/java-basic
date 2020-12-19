@@ -2,14 +2,15 @@ package io.github.hooj0.collection.set;
 
 import java.util.LinkedHashSet;
 
+/**
+ * 有序列表 链接散列集测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 9, 2011 4:41:14 PM
+ */
 public class LinkHashSetTest {
 
-	/**
-	 * 有序列表
-	 * @author hoojo
-	 * @createDate Jan 9, 2011 4:41:14 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		LinkedHashSet<String> books = new LinkedHashSet<String>();
 		books.add("Java");
