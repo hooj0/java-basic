@@ -3,6 +3,13 @@ package io.github.hooj0.generic.enums;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 学校
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 17:19:20
+ */
 public class School {
 	enum Class {
 		ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN;
