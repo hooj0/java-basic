@@ -2,14 +2,15 @@ package io.github.hooj0.collection.map;
 
 import java.util.HashMap;
 
+/**
+ * 零在散列映射
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 12, 2011 9:38:42 PM
+ */
 public class NullInHashMap {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Jan 12, 2011 9:38:42 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		HashMap<String, String> map = new HashMap<String, String>();
 		map.put(null, null);
