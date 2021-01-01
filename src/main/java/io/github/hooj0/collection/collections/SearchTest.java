@@ -6,7 +6,7 @@ import java.util.Collections;
 public class SearchTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 14, 2011 8:58:55 PM
 	 * @param args
