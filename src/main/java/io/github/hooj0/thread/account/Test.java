@@ -3,7 +3,7 @@ package io.github.hooj0.thread.account;
 public class Test {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 31, 2010 6:28:16 PM
 	 * @param args
