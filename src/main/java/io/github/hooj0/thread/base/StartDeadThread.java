@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.base;
 
 /**
- * <b>function:</b>起点死亡线程会引发java.lang.IllegalThreadStateException异常
+ * 起点死亡线程会引发java.lang.IllegalThreadStateException异常
  * @author hoojo
  * @createDate Nov 6, 2010 6:40:46 PM
  * @file StartDeadThread.java
@@ -21,7 +21,7 @@ public class StartDeadThread extends Thread {
 	}
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 31, 2010 3:48:25 PM
 	 * @param args
