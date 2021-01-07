@@ -7,7 +7,7 @@ import java.io.PrintStream;
 public class PrintStreamTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 
 	 * @createDate Dec 12, 2010 11:36:22 PM
 	 * @param args
