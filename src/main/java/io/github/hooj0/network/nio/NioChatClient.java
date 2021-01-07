@@ -8,7 +8,7 @@ import java.nio.charset.Charset;
 import java.util.Scanner;
 
 /***
- * <b>function:</b> nio实现通信客户端
+ *  nio实现通信客户端
  * @author hoojo
  * @createDate Sep 23, 2010 9:31:39 PM
  * @file NioChatClient.java
@@ -52,7 +52,7 @@ public class NioChatClient {
 	}
 	
 	/**
-	 * <b>function:</b>入口函数
+	 * 入口函数
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 10:46:48 AM
 	 * @param args
