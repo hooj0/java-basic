@@ -20,7 +20,7 @@ public class DeprecatedAnnotation {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 28, 2010 10:10:00 PM
 	 * @param args
