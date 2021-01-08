@@ -52,16 +52,16 @@ public class CBox extends Canvas {
 class CBoxVector extends Vector implements Runnable {
 
     private static final long serialVersionUID = 1L;
-    private final Thread t;
+    private final Thread thread;
     private final int pause;
 
     public CBoxVector(int pause) {
         this.pause = pause;
-        this.t = new Thread(this);
+        this.thread = new Thread(this);
     }
 
     public void go() {
-        this.t.start();
+        this.thread.start();
     }
 
     @Override
