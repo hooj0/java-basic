@@ -10,7 +10,7 @@ public class AlwaysUsingIOMethod {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 *
 
 	 * @createDate Dec 12, 2010 4:24:23 PM
 	 * @param args
