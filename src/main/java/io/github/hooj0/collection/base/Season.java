@@ -1,7 +1,7 @@
 package io.github.hooj0.collection.base;
 
 /**
- * <b>function:</b>
+ * 
  * @author hoojo
  * @createDate Jan 13, 2011 10:55:02 PM
  * @file Season.java
