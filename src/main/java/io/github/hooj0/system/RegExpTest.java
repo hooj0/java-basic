@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class RegExpTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Feb 15, 2011 10:33:53 PM
 	 * @param args
