@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
  * @date Nov 7, 2010 4:51:28 PM
  */
 @SuppressWarnings("ALL")
-public class ThreadPoolApp {
+public class FixedThreadPoolApp {
 
     public static void main(String[] args) {
         //创建一个具有固定线程数的线程池
