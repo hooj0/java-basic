@@ -1,7 +1,7 @@
 package io.github.hooj0.annotation.custom;
 
 /**
- * <b>function:</b>为annotation添加自定义属性，可以是多个
+ * 为annotation添加自定义属性，可以是多个
  * @author hoojo
  * @createDate Oct 30, 2010 2:47:48 PM
  * @file CustomAnnotationCustomField.java
