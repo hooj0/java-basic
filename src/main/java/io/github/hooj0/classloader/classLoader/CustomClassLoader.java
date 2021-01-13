@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 /**
- * <b>function:</b> 自定义类加载器
+ *  自定义类加载器
  * @author hoojo
  * @createDate Sep 28, 2010 9:12:33 PM
  * @file CustomClassLoader.java
@@ -18,7 +18,7 @@ import java.lang.reflect.Method;
  */
 public class CustomClassLoader extends ClassLoader {
 	/**
-	 * <b>function:</b> 读取文件字节
+	 *  读取文件字节
 	 * @author hoojo
 	 * @createDate Sep 28, 2010 9:39:56 PM
 	 * @param fileName 文件名
@@ -40,7 +40,7 @@ public class CustomClassLoader extends ClassLoader {
 	}
 	
 	/**
-	 * <b>function:</b>编译指定java文件的方法
+	 * 编译指定java文件的方法
 	 * @author hoojo
 	 * @createDate Sep 28, 2010 9:48:54 PM
 	 * @param fileName
