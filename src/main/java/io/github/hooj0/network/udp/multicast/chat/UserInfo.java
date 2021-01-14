@@ -3,7 +3,7 @@ package io.github.hooj0.network.udp.multicast.chat;
 import java.net.SocketAddress;
 
 /**
- * <b>function:</b> 用户基本信息
+ *  用户基本信息
  * @author hoojo
  * @createDate Sep 23, 2010 5:47:06 PM
  * @file UserInfo.java
