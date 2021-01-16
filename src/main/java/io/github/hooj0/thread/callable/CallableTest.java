@@ -3,7 +3,7 @@ package io.github.hooj0.thread.callable;
 import java.util.concurrent.FutureTask;
 
 /**
- * <b>function:</b>Callable示例
+ * Callable示例
  * @author hoojo
  * @createDate Nov 7, 2010 3:05:45 PM
  * @file CallableTest.java
@@ -16,7 +16,7 @@ import java.util.concurrent.FutureTask;
 public class CallableTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Nov 7, 2010 3:05:40 PM
 	 * @param args
