@@ -3,7 +3,7 @@ package io.github.hooj0.thread.base;
 import java.util.Date;
 
 /**
- * <b>function:</b>线程休眠
+ * 线程休眠
  * @author hoojo
  * @createDate Nov 6, 2010 6:40:27 PM
  * @file SleepThread.java
@@ -16,7 +16,7 @@ import java.util.Date;
 public class SleepThread {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 31, 2010 5:10:18 PM
 	 * @param args
