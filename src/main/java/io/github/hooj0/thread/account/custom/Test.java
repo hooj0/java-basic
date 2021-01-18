@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.account.custom;
 
 /**
- * <b>function:</b>取款，存款示例
+ * 取款，存款示例
  * @author hoojo
  * @createDate Nov 6, 2010 6:51:42 PM
  * @file Test.java
