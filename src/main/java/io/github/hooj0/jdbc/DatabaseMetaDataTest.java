@@ -8,7 +8,7 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
 /**
- * <b>function:</b>分析数据库数据
+ * 分析数据库数据
  * @author hoojo
  * @createDate 2011-5-21 下午04:04:20
  * @file DatabaseMetaDataTest.java
