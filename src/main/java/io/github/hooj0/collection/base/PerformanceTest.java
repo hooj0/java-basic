@@ -7,7 +7,7 @@ import java.util.LinkedList;
 public class PerformanceTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 10, 2011 10:59:40 PM
 	 * @param args
