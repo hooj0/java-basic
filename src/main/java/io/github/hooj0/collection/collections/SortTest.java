@@ -6,7 +6,7 @@ import java.util.Collections;
 public class SortTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 14, 2011 8:43:16 PM
 	 * @param args
