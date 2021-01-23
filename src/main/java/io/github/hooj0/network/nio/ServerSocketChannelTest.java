@@ -7,7 +7,7 @@ import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 
 /***
- * <b>function:</b> nio中常有方法测试
+ *  nio中常有方法测试
  * @author hoojo
  * @createDate Sep 23, 2010 10:47:34 AM
  * @file ServerSocketChannelTest.java
