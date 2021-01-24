@@ -34,6 +34,7 @@ public class PriorityThread extends Thread {
 				System.out.println(pt.getName() + " 创建优先级：" + pt.getPriority());
 				pt.setPriority(Thread.MIN_PRIORITY);
 			}
+
 			if (i == 20) {
 				PriorityThread pt = new PriorityThread("高级");
 				pt.start();
