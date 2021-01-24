@@ -6,7 +6,7 @@ import java.io.FilenameFilter;
 public class FilenameFilterTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 
 	 * @createDate Dec 12, 2010 5:42:16 PM
 	 * @param args
