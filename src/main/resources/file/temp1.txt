@@ -1,0 +1,12 @@
+输出数据
+java.io.FileOutputStream@5224ee
+//将本次内人和上次的内容一起推回到缓冲区
+				pbr.unread((read + content).toCharArray());
+				//再次读取指定长度的内容（就是目标字符串之前的内容）
+				pbr.read(c, 0, len);
+				System.out.println(new String(c, 0, targetIndex));
+new PushbackReader
+//输出上次内容
+				System.out.println(read);
+				//本次读取内容设为上次读取的内容
+				read = content;			
