@@ -6,7 +6,7 @@ import java.io.IOException;
 public class RuntimeTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 14, 2011 10:52:01 PM
 	 * @param args
