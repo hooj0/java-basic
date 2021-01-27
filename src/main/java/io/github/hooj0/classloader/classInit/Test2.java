@@ -20,7 +20,7 @@ public class Test2 {
     static int c;
 
     /**
-     * <b>function:</b>
+     * 
      *
      * @param args
      * @author hoojo
