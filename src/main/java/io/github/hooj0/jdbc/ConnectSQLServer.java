@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class ConnectSQLServer {
 
 	/**
-	 * <b>function:</b>SQLServer数据库链接
+	 * SQLServer数据库链接
 	 * @author hoojo
 	 * @createDate May 4, 2011 10:09:49 PM
 	 * @param args
