@@ -1,4 +1,4 @@
-package io.github.hooj0.thread;
+package io.github.hooj0.thread.awt;
 
 import java.awt.*;
 import java.util.Vector;

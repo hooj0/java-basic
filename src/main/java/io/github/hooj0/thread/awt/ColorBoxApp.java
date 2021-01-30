@@ -1,4 +1,4 @@
-package io.github.hooj0.thread;
+package io.github.hooj0.thread.awt;
 
 import java.awt.*;
 import java.awt.event.WindowAdapter;
@@ -12,15 +12,15 @@ import java.awt.event.WindowEvent;
  * @date 2022/01/26 14:39:28
  */
 @SuppressWarnings("ALL")
-public class ColorBoxes extends Frame {
+public class ColorBoxApp extends Frame {
 
     private static final long serialVersionUID = 1L;
     private final CBoxVector[] v;
 
     @SuppressWarnings("unchecked")
-    public ColorBoxes(int pause, int grid) {
+    public ColorBoxApp(int pause, int grid) {
 
-        this.setTitle("ColorBoxes");
+        this.setTitle("Color Box App");
         this.setLayout(new GridLayout(grid, grid));
         this.v = new CBoxVector[grid];
 
@@ -46,7 +46,7 @@ public class ColorBoxes extends Frame {
     }
 
     public static void main(String[] args) {
-        // Shorter default pause than ColorBoxes:
+        // Shorter default pause than ColorBoxApp:
         int pause = 5;
         int grid = 8;
         if (args.length > 0) {
@@ -57,7 +57,7 @@ public class ColorBoxes extends Frame {
             grid = Integer.parseInt(args[1]);
         }
 
-        Frame f = new ColorBoxes(pause, grid);
+        Frame f = new ColorBoxApp(pause, grid);
         f.setSize(500, 400);
         f.setVisible(true);
     }
