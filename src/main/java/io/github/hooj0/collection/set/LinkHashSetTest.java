@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 public class LinkHashSetTest {
 
 	/**
-	 * <b>function:</b>有序列表
+	 * 有序列表
 	 * @author hoojo
 	 * @createDate Jan 9, 2011 4:41:14 PM
 	 * @param args
