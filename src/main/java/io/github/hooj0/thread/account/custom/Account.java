@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.account.custom;
 
 /**
- * <b>function:</b>用wait、notifyAll操作线程
+ * 用wait、notifyAll操作线程
  * @author hoojo
  * @createDate Nov 2, 2010 10:28:01 PM
  * @file Account.java
