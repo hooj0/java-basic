@@ -9,7 +9,7 @@ public class GenericTest {
 	@SuppressWarnings("unused")
 	private Map<String, Integer> score;
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 5, 2010 2:09:43 PM
 	 * @param args
