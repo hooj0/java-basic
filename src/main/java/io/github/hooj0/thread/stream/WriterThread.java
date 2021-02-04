@@ -23,24 +23,24 @@ public class WriterThread extends Thread {
             "c"
     };
 
-    private final PipedWriter pw;
+    private final PipedWriter writer;
 
-    public WriterThread(PipedWriter pw) {
-        this.pw = pw;
+    public WriterThread(PipedWriter writer) {
+        this.writer = writer;
     }
 
     @Override
     public void run() {
         try {
             for (int i = 0; i < 100; i++) {
-                this.pw.write(this.books[i % 4] + "\n");
+                this.writer.write(this.books[i % 4] + "\n");
             }
         } catch (Exception ignored) {
 
         } finally {
-            if (this.pw != null) {
+            if (this.writer != null) {
                 try {
-                    this.pw.close();
+                    this.writer.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
