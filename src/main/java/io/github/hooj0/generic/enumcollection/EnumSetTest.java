@@ -8,7 +8,7 @@ import java.util.Iterator;
 public class EnumSetTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 16, 2010 2:28:16 PM
 	 * @param args
