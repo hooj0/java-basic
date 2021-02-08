@@ -6,7 +6,7 @@ import java.io.IOException;
 public class FileInputStreamTest {
 
 	/**
-	 * <b>function:</b>输入流InputStream
+	 * 输入流InputStream
 	 * FileInputStream 节点流，会直接和指定的文件关联
 
 	 * @createDate Dec 12, 2010 7:12:00 PM
