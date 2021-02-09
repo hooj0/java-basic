@@ -7,7 +7,7 @@ import java.util.Iterator;
 public class IteratorTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 4, 2011 8:29:09 PM
 	 * @param args
