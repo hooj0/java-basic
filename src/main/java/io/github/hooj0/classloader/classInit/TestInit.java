@@ -8,7 +8,7 @@ public class TestInit extends ClassB {
 	}
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Sep 27, 2010 11:29:52 PM
 	 * @param args
