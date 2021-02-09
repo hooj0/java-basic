@@ -8,7 +8,7 @@ import java.lang.reflect.Array;
 public class MultiArrayTest extends BasedTests {
 
     /**
-     * <b>function:</b>
+     * 
      *
      * @param args
      * @author hoojo
