@@ -1,7 +1,7 @@
 package io.github.hooj0.annotation.custom;
 
 /**
- * <b>function:</b>自定义Annotation，添加多个属性，且不同的类型
+ * 自定义Annotation，添加多个属性，且不同的类型
  * @author hoojo
  * @createDate Oct 30, 2010 3:17:30 PM
  * @file CustomAnnotationFieldType.java
