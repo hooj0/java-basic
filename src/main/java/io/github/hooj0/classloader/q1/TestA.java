@@ -3,7 +3,7 @@ package io.github.hooj0.classloader.q1;
 public class TestA {
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Sep 27, 2010 10:04:36 PM
 	 * @param args
