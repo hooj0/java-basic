@@ -7,7 +7,7 @@ import java.io.PushbackInputStream;
 public class PushbackInputStreamTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 
 	 * @createDate Dec 13, 2010 12:10:15 PM
 	 * @param args
