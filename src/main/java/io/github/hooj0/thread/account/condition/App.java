@@ -12,9 +12,10 @@ package io.github.hooj0.thread.account.condition;
  * @version 1.0
  */
 @SuppressWarnings("ALL")
-public class Test {
+public class App {
 
 	public static void main(String[] args) {
+
 		ConditionAccount acc = new ConditionAccount("11232132", 0);
 		new DrawMoneyThread("取款A", acc, 800).start();
 		new DepositThread("存款B", acc, 800).start();
