@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.pool;
 
 /**
- * <b>function:</b>实现Runnable接口的线程
+ * 实现Runnable接口的线程
  * @author hoojo
  * @createDate Nov 7, 2010 5:14:55 PM
  * @file RunnableThread.java
