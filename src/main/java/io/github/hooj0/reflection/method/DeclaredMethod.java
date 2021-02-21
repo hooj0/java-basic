@@ -4,7 +4,7 @@ import java.lang.reflect.Method;
 import java.util.Scanner;
 
 /**
- * <b>function:</b> 得到某个类的所有方法
+ *  得到某个类的所有方法
  * @author hoojo
  * @createDate Oct 5, 2010 3:31:32 PM
  * @file DeclaredMethod.java
