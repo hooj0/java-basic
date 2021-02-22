@@ -6,7 +6,7 @@ import io.github.hooj0.generic.enums.Student;
 public class PrintSchool {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 16, 2010 2:21:38 PM
 	 * @param args
