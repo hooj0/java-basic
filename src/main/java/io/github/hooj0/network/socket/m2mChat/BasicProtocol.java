@@ -1,7 +1,7 @@
 package io.github.hooj0.network.socket.m2mChat;
 
 /**
- * <b>function:</b> 自定义通讯协议规则 常量字符串
+ *  自定义通讯协议规则 常量字符串
  * @author hoojo
  * @createDate Sep 23, 2010 11:01:41 AM
  * @file BasicProtocol.java
