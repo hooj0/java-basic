@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.account.custom;
 
 /**
- * <b>function:</b>存款
+ * 存款
  * @author hoojo
  * @createDate Nov 6, 2010 6:51:05 PM
  * @file DepositThread.java
