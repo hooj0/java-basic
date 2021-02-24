@@ -5,7 +5,7 @@ import java.util.Stack;
 public class StackTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 9, 2011 10:49:10 PM
 	 * @param args
