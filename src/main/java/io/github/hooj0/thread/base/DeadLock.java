@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.base;
 
 /**
- * <b>function:</b>线程死锁示例
+ * 线程死锁示例
  * @author hoojo
  * @createDate Nov 6, 2010 3:34:55 PM
  * @file DeadLock.java
@@ -31,7 +31,7 @@ public class DeadLock extends Thread {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Nov 6, 2010 11:58:49 AM
 	 * @param args
