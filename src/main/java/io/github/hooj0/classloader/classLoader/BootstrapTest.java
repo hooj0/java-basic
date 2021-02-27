@@ -7,7 +7,7 @@ import sun.misc.Launcher;
 public class BootstrapTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Sep 28, 2010 7:01:07 PM
 	 * @param args
