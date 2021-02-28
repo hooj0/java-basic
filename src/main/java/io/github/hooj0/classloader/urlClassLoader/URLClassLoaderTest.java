@@ -31,7 +31,7 @@ public class URLClassLoaderTest {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 4, 2010 11:56:27 AM
 	 * @param args
