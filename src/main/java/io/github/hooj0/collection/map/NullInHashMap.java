@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class NullInHashMap {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 12, 2011 9:38:42 PM
 	 * @param args
