@@ -1,7 +1,7 @@
 package io.github.hooj0.reflection.dynamicproxy;
 
 /**
- *  线人的技能，有哪些技术或是特点
+ * 线人的技能，有哪些技术或是特点
  * @author hoojo
  * @createDate Oct 6, 2010 6:07:57 PM
  * @file SkillHelper.java
