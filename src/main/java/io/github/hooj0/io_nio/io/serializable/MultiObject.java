@@ -10,7 +10,7 @@ import java.io.ObjectOutputStream;
 public class MultiObject {
 
 	/**
-	 * <b>function:</b>
+	 * 
 
 	 * @createDate Dec 13, 2010 3:40:33 PM
 	 * @param args
