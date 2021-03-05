@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.account.condition;
 
 /**
- * <b>function:</b>同步取款线程
+ * 同步取款线程
  * @author hoojo
  * @createDate Nov 6, 2010 6:53:53 PM
  * @file DrawMoenyThread.java
