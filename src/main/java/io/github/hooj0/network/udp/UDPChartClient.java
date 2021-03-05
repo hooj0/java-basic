@@ -71,7 +71,6 @@ public class UDPChartClient {
 	}
 	
 	/**
-	 * 
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 3:46:11 PM
 	 * @param args
@@ -80,5 +79,4 @@ public class UDPChartClient {
 	public static void main(String[] args) throws Exception {
 		new UDPChartClient().init();
 	}
-
 }
