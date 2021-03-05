@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.RandomAccessFile;
 /***
- * <b>function:</b> 多线程下载
+ *  多线程下载
  * @author hoojo
  * @createDate Sep 18, 2010 11:13:34 PM
  * @file ManyThreadDownLoad.java
