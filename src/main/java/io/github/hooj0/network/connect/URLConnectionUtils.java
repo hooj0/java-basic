@@ -17,7 +17,7 @@ import java.net.URLConnection;
  * @blog http://blog.csdn.net/IBM_hoojo
  * @email hoojo_@126.com
  */
-public class URLConnSend {
+public class URLConnectionUtils {
 	/***
 	 * <b>function:<br/></b>
 	 * 向指定的url发送get请求
@@ -140,7 +140,7 @@ public class URLConnSend {
 	public static void main(String[] args) {
 		//String result = URLConnSend.sendGet("http://localhost:8080/JavaNetBase/HelloServlet", "name=java&say=hello world");
 		//System.out.println(result);
-		String result = URLConnSend.sendPost("http://localhost:8080/JavaNetBase/HelloServlet", "name=hoo&say=hello world");
+		String result = URLConnectionUtils.sendPost("http://localhost:8080/JavaNetBase/HelloServlet", "name=hoo&say=hello world");
 		System.out.println("result:"+ result);
 	}
 }
