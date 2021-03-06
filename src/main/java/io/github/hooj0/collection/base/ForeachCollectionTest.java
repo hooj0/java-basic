@@ -6,7 +6,7 @@ import java.util.HashSet;
 public class ForeachCollectionTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 4, 2011 8:49:09 PM
 	 * @param args
