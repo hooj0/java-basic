@@ -1,34 +1,44 @@
-package io.github.hooj0.nio.base;
+package io.github.hooj0.io_nio.nio.base;
+
+import io.github.hooj0.BasedTests;
 
 import java.nio.CharBuffer;
 
-public class BufferTest {
+/**
+ * 缓冲区测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/01/26 09:17:56
+ */
+@SuppressWarnings("ALL")
+public class BufferTest extends BasedTests {
 
 	public static void main(String[] args) {
 		//创建Buffer
 		CharBuffer buffer = CharBuffer.allocate(8);
-		System.out.println("capacity: " + buffer.capacity());
-		System.out.println("limit: " + buffer.limit());
-		System.out.println("position: " + buffer.position());
+		out("capacity: " + buffer.capacity());
+		out("limit: " + buffer.limit());
+		out("position: " + buffer.position());
 		
 		//添加元素
 		buffer.put("a");
 		buffer.put("b");
 		buffer.put("c");
-		System.out.println("加入元素后的位置， position：" + buffer.position());
+		out("加入元素后的位置， position：" + buffer.position());
 		buffer.flip();
-		System.out.println("执行flip方法后， position：" + buffer.position());
-		System.out.println("执行flip方法后， limit：" + buffer.limit());
+		out("执行flip方法后， position：" + buffer.position());
+		out("执行flip方法后， limit：" + buffer.limit());
 		
 		//取得第一个元素
-		System.out.println("第一个元素（position=0）：" + buffer.get());
-		System.out.println("获取第一个元素（position=0）：" + buffer.position());
+		out("第一个元素（position=0）：" + buffer.get());
+		out("获取第一个元素（position=0）：" + buffer.position());
 		
 		//调用clear
-		System.out.println("执行clear后的，limit：" + buffer.limit());
-		System.out.println("执行clear后的，position：" + buffer.position());
-		System.out.println("执行clear后的，缓冲区内容没有清除：" + buffer.get(2));
-		System.out.println("执行clear后的，limit：" + buffer.limit());
-		System.out.println("执行clear后的，position：" + buffer.position());
+		out("执行clear后的，limit：" + buffer.limit());
+		out("执行clear后的，position：" + buffer.position());
+		out("执行clear后的，缓冲区内容没有清除：" + buffer.get(2));
+		out("执行clear后的，limit：" + buffer.limit());
+		out("执行clear后的，position：" + buffer.position());
 	}
 }
