@@ -6,7 +6,7 @@ import java.io.PrintStream;
 import java.net.Socket;
 
 /**
- *  Socket通讯客户端人口函数
+ * Socket通讯客户端人口函数
  * @author hoojo
  * @createDate Sep 23, 2010 10:53:20 AM
  * @file ChatClient.java
