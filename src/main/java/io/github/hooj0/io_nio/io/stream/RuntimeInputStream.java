@@ -4,15 +4,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * 运行时输入流
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 13, 2010 1:01:00 PM
+ */
 public class RuntimeInputStream {
 
-	/**
-	 *
-
-	 * @createDate Dec 13, 2010 1:01:00 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		Process p = Runtime.getRuntime().exec("javac");
 		//p进程错误流创建BufferedReader对象
