@@ -14,16 +14,11 @@ import java.nio.channels.FileChannel.MapMode;
  *
  * @author hoojo
  * @version 1.0
- * @date 2022/01/26 09:24:53
+ * @date Jan 2, 2011 4:02:17 PM
  */
 @SuppressWarnings("ALL")
 public class RandomFileChannelTest extends BasedTests {
 
-	/**
-	 * @author hoojo
-	 * @createDate Jan 2, 2011 4:02:17 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		FileChannel chnanel = null;
 		try {
