@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /***
- * <b>function:</b> 多点广播
+ *  多点广播
  * @author hoojo
  * @createDate Sep 23, 2010 4:38:19 PM
  * @file MulticaseSocketTest.java
@@ -102,7 +102,7 @@ public class MulticastSocketTest implements Runnable {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 4:37:57 PM
 	 * @param args
