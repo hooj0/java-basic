@@ -1,7 +1,7 @@
 package io.github.hooj0.reflection.dynamicproxy;
 
 /**
- * <b>function:</b>线人——细鬼（谢霆锋饰演）；每个线人都有这些技能
+ * 线人——细鬼（谢霆锋饰演）；每个线人都有这些技能
  * @author hoojo
  * @createDate Oct 6, 2010 6:26:56 PM
  * @file XiGui.java
@@ -31,7 +31,7 @@ public class XiGui implements SkillHelper, GatherInformation {
 	
 	/**
 	 * @see com.hoo.base.dynamicproxy.GatherInformation#message(String)
-	 * <b>function:</b> 收集情报
+	 *  收集情报
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 7:25:47 PM
 	 */
