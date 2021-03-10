@@ -12,17 +12,11 @@ import java.nio.channels.FileLock;
  *
  * @author hoojo
  * @version 1.0
- * @date 2022/01/26 09:22:27
+ * @date Jan 2, 2011 5:09:56 PM
  */
 @SuppressWarnings("ALL")
 public class FileLockTest extends BasedTests {
 
-	/**
-	 * @author hoojo
-	 * @createDate Jan 2, 2011 5:09:56 PM
-	 * @param args
-	 * @throws IOException
-	 */
 	public static void main(String[] args) throws IOException {
 		FileChannel channel = null;
 		try {
