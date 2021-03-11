@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.group;
 
 /**
- * <b>function:</b>线程组简单示例
+ * 线程组简单示例
  * @author hoojo
  * @createDate Nov 6, 2010 6:31:17 PM
  * @file TestGroupThread.java
