@@ -77,7 +77,7 @@ public class PoolFactory {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 4, 2010 4:16:07 PM
 	 * @param args
