@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 /***
- *  聊天交互信息工具类
+ * 聊天交互信息工具类
  * @author hoojo
  * @createDate Sep 23, 2010 6:00:32 PM
  * @file ComUtils.java
@@ -67,7 +67,7 @@ public class ComUtils {
 	}
 	
 	/**
-	 *  广播本消息的方法
+	 * 广播本消息的方法
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 6:30:16 PM
 	 * @param msg 即将发送的消息
