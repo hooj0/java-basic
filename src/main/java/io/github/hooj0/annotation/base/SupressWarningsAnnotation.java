@@ -7,7 +7,7 @@ import java.util.List;
 public class SupressWarningsAnnotation {
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 28, 2010 10:20:22 PM
 	 * @param args
