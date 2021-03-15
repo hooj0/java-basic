@@ -12,8 +12,10 @@ package io.github.hooj0.thread.account;
  * @version 1.0
  */
 public class SafetyAccount {
+
 	private String number;
 	private double money;
+	
 	public String getNumber() {
 		return number;
 	}
