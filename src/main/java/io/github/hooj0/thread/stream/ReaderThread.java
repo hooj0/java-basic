@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.PipedReader;
 
 /**
- * <b>function:</b>线程输入流
+ * 线程输入流
  * @author hoojo
  * @createDate Nov 6, 2010 6:49:05 PM
  * @file ReaderThread.java
