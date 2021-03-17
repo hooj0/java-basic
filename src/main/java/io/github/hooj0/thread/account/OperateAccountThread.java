@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.account;
 
 /**
- * <b>function:</b>取款操作线程类
+ * 取款操作线程类
  * @author hoojo
  * @createDate Nov 2, 2010 10:28:25 PM
  * @file OperateAccountThread.java
