@@ -7,17 +7,15 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+/**
+ * 多对象
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 13, 2010 3:40:33 PM
+ */
 public class MultiObject {
 
-	/**
-	 * 
-
-	 * @createDate Dec 13, 2010 3:40:33 PM
-	 * @param args
-	 * @throws IOException 
-	 * @throws FileNotFoundException 
-	 * @throws ClassNotFoundException 
-	 */
 	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
 		String path = System.getProperty("user.dir");
 		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(path + "/file/o.txt"));
@@ -26,6 +24,7 @@ public class MultiObject {
 		user.setName("tom");//修改属性
 		//系统只会输出系列号，不会改变属性值
 		oos.writeObject(user);
+
 		ObjectInputStream ois = new ObjectInputStream(new FileInputStream(path + "/file/o.txt"));
 		User u = (User) ois.readObject();
 		User u2 = (User) ois.readObject();
