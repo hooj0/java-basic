@@ -4,7 +4,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 /**
- * <b>function:</b>定义一个Annotation
+ * 定义一个Annotation
  * @author hoojo
  * @createDate Oct 30, 2010 4:17:20 PM
  * @file TestAnnotation.java
