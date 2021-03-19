@@ -6,7 +6,7 @@ import java.util.Map;
 public class AddCount {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 7, 2010 11:45:19 AM
 	 * @param args
