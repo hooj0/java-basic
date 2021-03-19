@@ -10,16 +10,11 @@ import java.util.SortedMap;
  *
  * @author hoojo
  * @version 1.0
- * @date 2022/01/26 09:12:12
+ * @date Jan 2, 2011 4:52:16 PM
  */
 @SuppressWarnings("ALL")
 public class CharsetTest extends BasedTests {
 
-	/**
-	 * @author hoojo
-	 * @createDate Jan 2, 2011 4:52:16 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		SortedMap<String, Charset> map = Charset.availableCharsets();
 		for (String alias : map.keySet()) {
