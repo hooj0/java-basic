@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- *  扩展HashMap,可以通过value找到对应的key
+ * 扩展HashMap,可以通过value找到对应的key
  * 并且value不能重复，通过value删除对应的key
  * @author hoojo
  * @createDate Sep 23, 2010 10:59:50 AM
@@ -72,7 +72,7 @@ public class BasicMap<K, V> extends HashMap<K, V> {
 	/**
 	 * override
 	 * @see HashMap#put(Object, Object)
-	 *  重写HashMap的put方法
+	 * 重写HashMap的put方法
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 11:04:27 AM
 	 */
