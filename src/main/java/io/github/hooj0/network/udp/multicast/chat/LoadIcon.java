@@ -3,6 +3,13 @@ package io.github.hooj0.network.udp.multicast.chat;
 import java.io.File;
 import java.util.List;
 
+/**
+ * 加载图标
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 15:07:11
+ */
 public class LoadIcon {
 	/**
 	 * 递归读取某文件夹下的所有文件名
