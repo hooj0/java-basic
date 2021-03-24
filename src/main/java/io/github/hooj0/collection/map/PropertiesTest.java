@@ -9,7 +9,7 @@ import java.util.Properties;
 public class PropertiesTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 12, 2011 10:51:35 PM
 	 * @param args
