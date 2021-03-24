@@ -15,15 +15,19 @@ import java.util.concurrent.locks.ReentrantLock;
  * @email hoojo_@126.com
  * @version 1.0
  */
+@SuppressWarnings("ALL")
 public class ConditionAccount {
+
 	//显示定义Lock对象
 	private final Lock lock = new ReentrantLock();
+
 	//获得指定Lock对象对应的条件变量
 	private final Condition cond = lock.newCondition();
 	
 	private String number;
 	private double money;
 	private boolean flag = false;
+
 	public String getNumber() {
 		return number;
 	}
