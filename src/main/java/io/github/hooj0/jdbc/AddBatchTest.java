@@ -17,6 +17,7 @@ import java.sql.Statement;
  * @version 1.0
  */
 public class AddBatchTest {
+
 	private Connection conn;
 	private Statement sm;
 	
