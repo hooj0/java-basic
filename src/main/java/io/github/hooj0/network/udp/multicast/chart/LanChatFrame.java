@@ -69,7 +69,7 @@ public class LanChatFrame extends JFrame {
 	}
 	
 	/***
-	 * <b>function:</b>处理网络中的数据报，通过聊天信息得到聊天者，并将信息显示在对话画框中
+	 * 处理网络中的数据报，通过聊天信息得到聊天者，并将信息显示在对话画框中
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 9:12:28 PM
 	 * @param packet
