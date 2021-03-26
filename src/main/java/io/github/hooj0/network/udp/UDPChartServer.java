@@ -60,10 +60,8 @@ public class UDPChartServer {
 			}
 		}
 	}
-	
-	
+
 	/**
-	 *
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 3:17:07 PM
 	 * @param args
