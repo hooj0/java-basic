@@ -13,24 +13,26 @@ import java.util.concurrent.FutureTask;
  * @blog http://blog.csdn.net/IBM_hoojo
  * @email hoojo_@126.com
  */
+@SuppressWarnings("ALL")
 public class CallableTest {
 
     public static void main(String[] args) throws Exception {
         //创建Callable实现类的示例
-        CallableThread ct = new CallableThread();
+        CallableThread thread = new CallableThread();
+
         //用FutureTask包装Callable对象
-        FutureTask<Integer> ft = new FutureTask<>(ct);
+        FutureTask<Integer> futureTask = new FutureTask<>(thread);
 
         for (int i = 0; i < 100; i++) {
             System.out.println(Thread.currentThread().getName() + " 变量 i：" + i);
             if (i == 20) {
                 //将FutureTask作为Thread的target对象，并起动线程
-                new Thread(ft, "带返回值线程").start();
+                new Thread(futureTask, "带返回值线程").start();
             }
         }
-        System.out.println("结果：" + ft.get());
-        //在线程类中sleep 200毫秒就会出现延时异常：java.util.concurrent.TimeoutException
-        //System.out.println("200毫秒返回结果：" + ft.get(20, TimeUnit.MILLISECONDS));
+        System.out.println("结果：" + futureTask.get());
+        // 在线程类中sleep 200毫秒就会出现延时异常：java.util.concurrent.TimeoutException
+        // System.out.println("200毫秒返回结果：" + futureTask.get(20, TimeUnit.MILLISECONDS));
         System.out.println("阻塞时，这里不被执行……");
     }
 }

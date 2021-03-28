@@ -15,7 +15,7 @@ public class Test {
 	public static void main(String[] args) {
 		Account acc = new Account("11232132", 0);
 		
-		new DrawMoenyThread("取款A", acc, 800).start();
+		new DrawMoneyThread("取款A", acc, 800).start();
 		new DepositThread("存款B", acc, 800).start();
 		new DepositThread("存款C", acc, 800).start();
 		new DepositThread("存款D", acc, 800).start();
