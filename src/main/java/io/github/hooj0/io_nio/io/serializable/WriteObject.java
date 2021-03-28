@@ -1,4 +1,4 @@
-package io.github.hooj0.io.serializable;
+package io.github.hooj0.io_nio.io.serializable;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
