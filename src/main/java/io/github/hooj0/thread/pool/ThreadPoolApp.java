@@ -4,20 +4,15 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 线程池测试
+ * 线程池应用
  *
  * @author hoojo
  * @version 1.0
- * @date 2022/01/26 14:53:43
+ * @date Nov 7, 2010 4:51:28 PM
  */
 @SuppressWarnings("ALL")
-public class ThreadPoolTest {
+public class ThreadPoolApp {
 
-    /**
-     * @param args
-     * @author hoojo
-     * @createDate Nov 7, 2010 4:51:28 PM
-     */
     public static void main(String[] args) {
         //创建一个具有固定线程数的线程池
         ExecutorService pool = Executors.newFixedThreadPool(6);
