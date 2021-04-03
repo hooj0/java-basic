@@ -9,7 +9,7 @@ public class SubDeprecatedAnnotation extends DeprecatedAnnotation {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 28, 2010 10:17:03 PM
 	 * @param args
