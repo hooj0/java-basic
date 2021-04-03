@@ -11,15 +11,16 @@ package io.github.hooj0.thread.account.condition;
  * @email hoojo_@126.com
  * @version 1.0
  */
+@SuppressWarnings("ALL")
 public class Test {
+
 	public static void main(String[] args) {
-		
 		ConditionAccount acc = new ConditionAccount("11232132", 0);
-		new DrawMoenyThread("取款A", acc, 800).start();
+		new DrawMoneyThread("取款A", acc, 800).start();
 		new DepositThread("存款B", acc, 800).start();
 		new DepositThread("存款C", acc, 800).start();
 		new DepositThread("存款D", acc, 800).start();
-		//new DrawMoenyThread("取款E", acc, 800).start();
+		//new DrawMoneyThread("取款E", acc, 800).start();
 		
 		/**
 		 * 300次存款，100次取款导致线程阻塞
