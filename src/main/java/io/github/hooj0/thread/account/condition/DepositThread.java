@@ -12,18 +12,21 @@ package io.github.hooj0.thread.account.condition;
  * @version 1.0
  */
 public class DepositThread extends Thread {
-	private ConditionAccount acc;
-	private double depositMoney;
-	public DepositThread(String name, ConditionAccount acc, double depositMoney) {
+
+	private final ConditionAccount account;
+	private final double depositMoney;
+
+	public DepositThread(String name, ConditionAccount account, double depositMoney) {
 		super(name);
-		this.acc = acc;
+
+		this.account = account;
 		this.depositMoney = depositMoney;
 	}
 	
 	@Override
 	public void run() {
 		for (int i = 0; i < 100; i++) {
-			acc.deposit(depositMoney);
+			account.deposit(depositMoney);
 		}
 	}
 }
