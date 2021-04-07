@@ -1,4 +1,4 @@
-package io.github.hooj0.nio.base;
+package io.github.hooj0.io_nio.nio.base;
 
 import java.io.File;
 import java.io.IOException;

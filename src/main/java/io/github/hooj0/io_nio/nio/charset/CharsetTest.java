@@ -3,10 +3,17 @@ package io.github.hooj0.nio.charset;
 import java.nio.charset.Charset;
 import java.util.SortedMap;
 
+/**
+ * 字符集测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/01/26 09:12:12
+ */
+@SuppressWarnings("ALL")
 public class CharsetTest {
 
 	/**
-	 * <b>function:</b>
 	 * @author hoojo
 	 * @createDate Jan 2, 2011 4:52:16 PM
 	 * @param args
