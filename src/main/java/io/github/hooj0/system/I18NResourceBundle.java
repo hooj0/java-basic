@@ -1,33 +1,36 @@
 package io.github.hooj0.system;
 
+import io.github.hooj0.BasedTests;
+
 import java.text.MessageFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class I18NResourceBundle {
+/**
+ * i18 n 国际化测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Feb 21, 2011 11:17:49 PM
+ */
+public class I18NResourceBundle extends BasedTests {
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Feb 21, 2011 11:17:49 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Locale[] locales = Locale.getAvailableLocales();
 		for (int i = 0; i < locales.length; i++) {
-			System.out.println(locales[i].getDisplayCountry() + "=" + locales[i].getCountry() + " "
+			out(locales[i].getDisplayCountry() + "=" + locales[i].getCountry() + " "
 					+ locales[i].getDisplayLanguage() + "=" + locales[i].getLanguage());
 		}
 		
-		System.out.println();
+		out();
 		
-		Locale locale = Locale.US;//Locale.getDefault();
+		Locale locale = Locale.US; // Locale.getDefault();
 		
 		ResourceBundle bundle = ResourceBundle.getBundle("mess", locale);
-		System.out.println(bundle.getString("hello"));
+		out(bundle.getString("hello"));
 		
 		//MessageFormat
-		System.out.println(MessageFormat.format("haha", "zhangsan", new Date()));
+		out(MessageFormat.format("haha", "zhangsan", new Date()));
 	}
 }
