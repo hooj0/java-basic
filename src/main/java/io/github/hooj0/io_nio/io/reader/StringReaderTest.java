@@ -7,7 +7,7 @@ import java.io.StringWriter;
 public class StringReaderTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 
 	 * @createDate Dec 13, 2010 12:13:42 AM
 	 * @param args
