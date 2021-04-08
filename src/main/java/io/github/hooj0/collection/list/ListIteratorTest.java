@@ -7,7 +7,7 @@ import java.util.ListIterator;
 public class ListIteratorTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 9, 2011 9:34:15 PM
 	 * @param args
