@@ -20,7 +20,7 @@ public class EnumTest {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 7, 2010 12:11:11 PM
 	 * @param args
