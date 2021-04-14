@@ -8,7 +8,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /***
- * <b>function:</b> URLConnection 发送get、post请求
+ *  URLConnection 发送get、post请求
  * @author hoojo
  * @createDate Sep 18, 2010 11:14:13 PM
  * @file URLConnSend.java
@@ -74,7 +74,7 @@ public class URLConnSend {
 	}
 	
 	/**
-	 * <b>function:</b>向指定url资源发送post请求
+	 * 向指定url资源发送post请求
 	 * @author hoojo
 	 * @createDate Sep 18, 2010 11:11:21 PM
 	 * @param url 发送请求的url地址
