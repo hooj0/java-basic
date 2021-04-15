@@ -5,7 +5,7 @@ import java.util.WeakHashMap;
 public class WeakHashMapTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 13, 2011 10:16:46 PM
 	 * @param args
