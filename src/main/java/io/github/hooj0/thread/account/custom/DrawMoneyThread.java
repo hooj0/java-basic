@@ -11,20 +11,23 @@ package io.github.hooj0.thread.account.custom;
  * @email hoojo_@126.com
  * @version 1.0
  */
-public class DrawMoenyThread extends Thread {
-	//模拟账户
-	private Account acc;
-	private double drawMoney;
-	public DrawMoenyThread(String name, Account acc, double drawMoney) {
+@SuppressWarnings("ALL")
+public class DrawMoneyThread extends Thread {
+
+	// 模拟账户
+	private final Account account;
+	private final double drawMoney;
+
+	public DrawMoneyThread(String name, Account account, double drawMoney) {
 		super(name);
-		this.acc = acc;
+		this.account = account;
 		this.drawMoney = drawMoney;
 	}
 	
 	@Override
 	public void run() {
 		for (int i = 0; i < 100; i++) {
-			acc.draw(drawMoney);
+			account.draw(drawMoney);
 		}
 	}
 }
