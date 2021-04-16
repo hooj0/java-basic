@@ -11,15 +11,16 @@ package io.github.hooj0.thread.account.custom;
  * @email hoojo_@126.com
  * @version 1.0
  */
-public class Test {
+public class App {
+
 	public static void main(String[] args) {
-		Account acc = new Account("11232132", 0);
+		Account account = new Account("11232132", 0);
 		
-		new DrawMoneyThread("取款A", acc, 800).start();
-		new DepositThread("存款B", acc, 800).start();
-		new DepositThread("存款C", acc, 800).start();
-		new DepositThread("存款D", acc, 800).start();
-		//new DrawMoenyThread("取款E", acc, 800).start();
+		new DrawMoneyThread("取款A", account, 800).start();
+		new DepositThread("存款B", account, 800).start();
+		new DepositThread("存款C", account, 800).start();
+		new DepositThread("存款D", account, 800).start();
+		//new DrawMoneyThread("取款E", account, 800).start();
 		
 		/**
 		 * 300次存款，100次取款导致线程阻塞
