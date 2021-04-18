@@ -9,7 +9,7 @@ import java.io.Serializable;
 public class WriteObject {
 
 	/**
-	 * <b>function:</b>
+	 *
 
 	 * @createDate Dec 13, 2010 2:51:33 PM
 	 * @param args
