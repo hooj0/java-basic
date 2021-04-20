@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class RuntimeOutputStream {
 
 	/**
-	 * <b>function:</b>
+	 *
 
 	 * @createDate Dec 13, 2010 1:11:12 PM
 	 * @param args
