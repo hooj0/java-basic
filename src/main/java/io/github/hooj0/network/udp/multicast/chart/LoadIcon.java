@@ -5,7 +5,7 @@ import java.util.List;
 
 public class LoadIcon {
 	/**
-	 * <b>function:</b>递归读取某文件夹下的所有文件名
+	 * 递归读取某文件夹下的所有文件名
 	 * @author hoojo
 	 * @createDate Sep 24, 2010 12:11:48 PM
 	 * @param file 文件夹或文件
