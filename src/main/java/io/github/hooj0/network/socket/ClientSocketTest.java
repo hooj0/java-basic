@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
 public class ClientSocketTest {
 
 	/**
-	 * <b>function:</b>Scoket客户端
+	 * Scoket客户端
 	 * @author hoojo
 	 * @createDate Sep 22, 2010 11:54:50 AM
 	 * @param args
