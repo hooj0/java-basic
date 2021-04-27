@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 public class LinkHashMapTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 12, 2011 10:40:00 PM
 	 * @param args
