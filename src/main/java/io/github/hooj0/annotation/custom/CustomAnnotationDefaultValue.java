@@ -1,7 +1,7 @@
 package io.github.hooj0.annotation.custom;
 
 /**
- * <b>function:</b>为自定义annotation赋默认值
+ * 为自定义annotation赋默认值
  * @author hoojo
  * @createDate Oct 30, 2010 2:52:03 PM
  * @file CustomAnnotationDefaultValue.java
