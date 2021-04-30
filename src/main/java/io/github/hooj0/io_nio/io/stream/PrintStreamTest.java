@@ -1,4 +1,4 @@
-package io.github.hooj0.io.stream;
+package io.github.hooj0.io_nio.io.stream;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
