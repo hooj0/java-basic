@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.base;
 
 /**
- * <b>function:</b>后台线程示例
+ * 后台线程示例
  * @author hoojo
  * @createDate Oct 31, 2010 4:36:46 PM
  * @file DaemonThread.java
