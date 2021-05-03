@@ -15,7 +15,7 @@ public class FAQTryCatchTest {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Mar 3, 2011 10:50:59 PM
 	 * @param args
