@@ -6,7 +6,7 @@ import java.util.Collection;
 public class BoxCase {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 7, 2010 11:39:20 AM
 	 * @param args
