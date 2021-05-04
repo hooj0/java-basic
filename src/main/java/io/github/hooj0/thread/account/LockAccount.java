@@ -3,7 +3,7 @@ package io.github.hooj0.thread.account;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * <b>function:</b>线程安全的，同步锁
+ * 线程安全的，同步锁
  * @author hoojo
  * @createDate Nov 2, 2010 10:28:44 PM
  * @file SafetyAccount.java
@@ -32,7 +32,7 @@ public class LockAccount {
 	}
 	
 	/**
-	 * <b>function:</b>线程安全的，用锁进行资源锁定
+	 * 线程安全的，用锁进行资源锁定
 	 * 支持多线程并发操作
 	 * @author hoojo
 	 * @createDate Nov 2, 2010 10:32:12 PM
