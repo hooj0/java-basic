@@ -15,26 +15,27 @@ import java.awt.event.WindowEvent;
 public class ColorBoxApp extends Frame {
 
     private static final long serialVersionUID = 1L;
-    private final CBoxVector[] v;
+    private final CBoxVector[] vectors;
 
     @SuppressWarnings("unchecked")
     public ColorBoxApp(int pause, int grid) {
 
         this.setTitle("Color Box App");
         this.setLayout(new GridLayout(grid, grid));
-        this.v = new CBoxVector[grid];
+
+        this.vectors = new CBoxVector[grid];
 
         for (int i = 0; i < grid; i++) {
-            this.v[i] = new CBoxVector(pause);
+            this.vectors[i] = new CBoxVector(pause);
         }
 
         for (int i = 0; i < grid * grid; i++) {
-            this.v[i % grid].addElement(new CBox());
-            this.add((CBox) this.v[i % grid].lastElement());
+            this.vectors[i % grid].addElement(new CBox());
+            this.add((CBox) this.vectors[i % grid].lastElement());
         }
 
         for (int i = 0; i < grid; i++) {
-            this.v[i].go();
+            this.vectors[i].go();
         }
 
         this.addWindowListener(new WindowAdapter() {
