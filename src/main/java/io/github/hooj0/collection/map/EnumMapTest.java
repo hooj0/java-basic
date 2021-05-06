@@ -8,7 +8,7 @@ import java.util.EnumMap;
 public class EnumMapTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 13, 2011 10:53:09 PM
 	 * @param args
