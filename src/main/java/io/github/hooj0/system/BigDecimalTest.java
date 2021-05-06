@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public class BigDecimalTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Feb 13, 2011 9:14:40 PM
 	 * @param args
