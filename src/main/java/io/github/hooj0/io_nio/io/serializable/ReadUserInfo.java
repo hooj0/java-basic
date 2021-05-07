@@ -8,7 +8,7 @@ import java.io.ObjectInputStream;
 public class ReadUserInfo {
 
 	/**
-	 * <b>function:</b>
+	 *
 
 	 * @createDate Dec 13, 2010 3:29:15 PM
 	 * @param args
