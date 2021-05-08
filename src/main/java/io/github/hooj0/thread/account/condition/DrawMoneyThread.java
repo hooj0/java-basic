@@ -11,20 +11,23 @@ package io.github.hooj0.thread.account.condition;
  * @email hoojo_@126.com
  * @version 1.0
  */
+@SuppressWarnings("ALL")
 public class DrawMoneyThread extends Thread {
+
 	//模拟账户
-	private ConditionAccount acc;
+	private ConditionAccount account;
 	private double drawMoney;
-	public DrawMoneyThread(String name, ConditionAccount acc, double drawMoney) {
+
+	public DrawMoneyThread(String name, ConditionAccount account, double drawMoney) {
 		super(name);
-		this.acc = acc;
+		this.account = account;
 		this.drawMoney = drawMoney;
 	}
 	
 	@Override
 	public void run() {
 		for (int i = 0; i < 100; i++) {
-			acc.draw(drawMoney);
+			account.draw(drawMoney);
 		}
 	}
 }
