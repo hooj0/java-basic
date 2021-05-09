@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 
 /**
- * <b>function:</b> Socket通讯客户端多线程代码
+ *  Socket通讯客户端多线程代码
  * @author hoojo
  * @createDate Sep 23, 2010 10:54:59 AM
  * @file ClientThread.java
