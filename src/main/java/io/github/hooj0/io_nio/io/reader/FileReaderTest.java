@@ -6,7 +6,7 @@ import java.io.IOException;
 public class FileReaderTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 
 	 * @createDate Dec 12, 2010 7:35:50 PM
 	 * @param args
