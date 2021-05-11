@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 public class CreateJFrame {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 4, 2010 4:02:52 PM
 	 * @param args
