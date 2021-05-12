@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.account.condition;
 
 /**
- * <b>function:</b>Condition同步线程测试类
+ * Condition同步线程测试类
  * @author hoojo
  * @createDate Nov 6, 2010 6:55:10 PM
  * @file Test.java
