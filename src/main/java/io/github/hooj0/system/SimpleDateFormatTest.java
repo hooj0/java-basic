@@ -7,7 +7,7 @@ import java.util.Date;
 public class SimpleDateFormatTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Feb 25, 2011 11:43:01 PM
 	 * @param args
