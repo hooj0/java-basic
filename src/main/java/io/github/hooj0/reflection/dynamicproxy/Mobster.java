@@ -1,7 +1,7 @@
 package io.github.hooj0.reflection.dynamicproxy;
 
 /**
- * <b>function:</b>匪徒
+ * 匪徒
  * @author hoojo
  * @createDate Oct 6, 2010 5:56:03 PM
  * @file Mobster.java
@@ -18,7 +18,7 @@ public class Mobster implements GatherInformation {
 	}
 	/**
 	 * @see com.hoo.base.dynamicproxy.GatherInformation#message(String)
-	 * <b>function:</b> 匪徒放出的消息，真实的情报
+	 *  匪徒放出的消息，真实的情报
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 5:56:30 PM
 	 */
