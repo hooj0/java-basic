@@ -48,7 +48,7 @@ public class ObjectPoolFactory {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 4, 2010 1:29:12 PM
 	 * @param args
