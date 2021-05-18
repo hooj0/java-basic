@@ -6,7 +6,7 @@ import java.io.RandomAccessFile;
 public class AppendFileContent {
 
 	/**
-	 * <b>function:</b>
+	 * 
 
 	 * @createDate Dec 13, 2010 2:05:31 PM
 	 * @param args
