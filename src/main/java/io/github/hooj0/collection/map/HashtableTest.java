@@ -5,7 +5,7 @@ import java.util.Hashtable;
 public class HashtableTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 12, 2011 9:53:41 PM
 	 * @param args
