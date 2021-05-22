@@ -5,21 +5,16 @@ package io.github.hooj0.thread.group;
  *
  * @author hoojo
  * @version 1.0
- * @createDate Nov 6, 2010 6:31:17 PM
- * @file TestGroupThread.java
- * @package com.hoo.thread.group
- * @project JavaThread
- * @blog http://blog.csdn.net/IBM_hoojo
- * @email hoojo_@126.com
+ * @date 2022/01/26 14:59:15
  */
-public class GroupThread extends Thread {
+public class CustomGroupThread extends Thread {
 
-    public GroupThread(String name) {
+    public CustomGroupThread(String name) {
         super(name);
     }
 
-    //指定线程组和线程名称
-    public GroupThread(ThreadGroup group, String name) {
+    // 指定线程组和线程名称
+    public CustomGroupThread(ThreadGroup group, String name) {
         super(group, name);
     }
 
