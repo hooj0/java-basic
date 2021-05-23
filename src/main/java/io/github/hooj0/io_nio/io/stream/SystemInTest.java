@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class SystemInTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 
 	 * @createDate Dec 13, 2010 12:34:22 PM
 	 * @param args
