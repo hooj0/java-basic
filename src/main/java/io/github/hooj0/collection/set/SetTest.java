@@ -6,7 +6,7 @@ import java.util.Set;
 public class SetTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * set无序、不容许重复元素
 	 * HashSet、TreeSet、EnumSet线程不安全
 	 * 当用多线程操作的时候，要用synchronizedSortedSet包装Set集合
