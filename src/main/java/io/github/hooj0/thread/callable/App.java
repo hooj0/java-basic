@@ -1,5 +1,7 @@
 package io.github.hooj0.thread.callable;
 
+import io.github.hooj0.BasedTests;
+
 import java.util.concurrent.FutureTask;
 
 /**
@@ -14,7 +16,7 @@ import java.util.concurrent.FutureTask;
  * @email hoojo_@126.com
  */
 @SuppressWarnings("ALL")
-public class CallableTest {
+public class App extends BasedTests {
 
     public static void main(String[] args) throws Exception {
         //创建Callable实现类的示例
@@ -24,16 +26,16 @@ public class CallableTest {
         FutureTask<Integer> futureTask = new FutureTask<>(thread);
 
         for (int i = 0; i < 100; i++) {
-            System.out.println(Thread.currentThread().getName() + " 变量 i：" + i);
+            out(Thread.currentThread().getName() + " 变量 i：" + i);
             if (i == 20) {
                 //将FutureTask作为Thread的target对象，并起动线程
                 new Thread(futureTask, "带返回值线程").start();
             }
         }
-        System.out.println("结果：" + futureTask.get());
+        out("结果：" + futureTask.get());
         // 在线程类中sleep 200毫秒就会出现延时异常：java.util.concurrent.TimeoutException
-        // System.out.println("200毫秒返回结果：" + futureTask.get(20, TimeUnit.MILLISECONDS));
-        System.out.println("阻塞时，这里不被执行……");
+        // out("200毫秒返回结果：" + futureTask.get(20, TimeUnit.MILLISECONDS));
+        out("阻塞时，这里不被执行……");
     }
 }
 /**
