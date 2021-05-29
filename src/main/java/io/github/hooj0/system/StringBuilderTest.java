@@ -1,29 +1,32 @@
 package io.github.hooj0.system;
 
-public class StringBuilderTest {
+import io.github.hooj0.BasedTests;
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Jan 15, 2011 10:06:03 PM
-	 * @param args
-	 */
+/**
+ * 字符串构建器测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Jan 15, 2011 10:06:03 PM
+ */
+public class StringBuilderTest extends BasedTests {
+
 	public static void main(String[] args) {
 		StringBuilder sb = new StringBuilder();
 		sb.append("java");
-		System.out.println(sb);
+		out(sb);
 		sb.insert(0, "easy ");
-		System.out.println(sb);
+		out(sb);
 		sb.replace(4, 5, ",");
-		System.out.println(sb);
+		out(sb);
 		
 		sb.delete(4, 5);
-		System.out.println(sb);
+		out(sb);
 		
 		sb.reverse();
-		System.out.println(sb);
-		System.out.println(sb.length());
+		out(sb);
+		out(sb.length());
 		sb.setLength(4);
-		System.out.println(sb);
+		out(sb);
 	}
 }
