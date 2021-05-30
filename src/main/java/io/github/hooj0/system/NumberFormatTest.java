@@ -6,7 +6,7 @@ import java.util.Locale;
 public class NumberFormatTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Feb 25, 2011 10:52:13 PM
 	 * @param args
