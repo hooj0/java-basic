@@ -1,12 +1,21 @@
 package io.github.hooj0.reflection.method;
 
+import io.github.hooj0.BasedTests;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-public class MethodReflectTester {
+/**
+ * 方法反映测试器
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 11:55:18
+ */
+public class MethodReflectTester extends BasedTests {
 	public Object copy(Object o) throws Exception {
 		Class<?> clazz = o.getClass();
-		System.out.println("Class:" + clazz.getName());
+		out("Class:" + clazz.getName());
 		
 		//Object copyObject = clazz.newInstance();
 		Object copyObject = clazz.getConstructor(new Class[]{}).newInstance(new Object[]{});
@@ -17,14 +26,14 @@ public class MethodReflectTester {
 			String firstChar = fieldName.substring(0, 1).toUpperCase();
 			String setMethodName = "set".concat(firstChar).concat(fieldName.substring(1));
 			String getMethodName = "get".concat(firstChar).concat(fieldName.substring(1));
-			System.out.println("setter:" + setMethodName);
-			System.out.println("getter:" + getMethodName);
+			out("setter:" + setMethodName);
+			out("getter:" + getMethodName);
 			
 			Method getMethod = clazz.getMethod(getMethodName, new Class[]{});
 			Method setMethod = clazz.getMethod(setMethodName, new Class[]{f.getType()});
 			
 			Object getVal = getMethod.invoke(o, new Object[]{});
-			System.out.println(fieldName + ":" + getVal);
+			out(fieldName + ":" + getVal);
 			//调用copyObject的setter方法 
 			setMethod.invoke(copyObject, new Object[]{getVal});
 		}
@@ -38,7 +47,7 @@ public class MethodReflectTester {
 		o.setId(2L);
 		o.setName("jack");
 		User u = (User) test.copy(o);
-		System.out.println(u);
+		out(u);
 	}
 }
 
