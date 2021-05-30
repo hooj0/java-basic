@@ -10,7 +10,7 @@ import java.util.Map.Entry;
 public class SystemInfo {
 
 	/**
-	 * <b>function:</b>
+	 * 
 
 	 * @createDate Dec 12, 2010 4:34:36 PM
 	 * @param args
