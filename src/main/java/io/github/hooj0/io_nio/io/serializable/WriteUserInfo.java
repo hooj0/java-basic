@@ -9,7 +9,7 @@ import java.io.Serializable;
 public class WriteUserInfo {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @createDate Dec 13, 2010 3:19:18 PM
 	 * @param args
 	 * @throws IOException 
