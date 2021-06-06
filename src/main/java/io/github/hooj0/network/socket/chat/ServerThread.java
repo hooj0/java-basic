@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * <b>function:</b> Socket通讯聊天服务器端代码
+ *  Socket通讯聊天服务器端代码
  * @author hoojo
  * @createDate Sep 23, 2010 10:55:55 AM
  * @file ServerThread.java
