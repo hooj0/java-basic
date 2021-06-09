@@ -1,7 +1,7 @@
 package io.github.hooj0.reflection.dynamicproxy;
 
 /**
- * <b>function:</b> 收集情报接口
+ *  收集情报接口
  * @author hoojo
  * @createDate Oct 6, 2010 5:52:55 PM
  * @file GatherInformation.java
@@ -13,7 +13,7 @@ package io.github.hooj0.reflection.dynamicproxy;
  */
 public interface GatherInformation {
 	/**
-	 * <b>function:</b> 收集情报方法
+	 *  收集情报方法
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 5:53:27 PM
 	 * @param msg 情报消息
