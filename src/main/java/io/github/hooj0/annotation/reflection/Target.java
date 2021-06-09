@@ -1,7 +1,7 @@
 package io.github.hooj0.annotation.reflection;
 
 /**
- * <b>function:</b>目标对象，测试自定义Annotation
+ * 目标对象，测试自定义Annotation
  * @author hoojo
  * @createDate Oct 30, 2010 4:17:43 PM
  * @file Target.java
