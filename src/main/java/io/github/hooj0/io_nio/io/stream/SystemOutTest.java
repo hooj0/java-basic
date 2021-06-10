@@ -8,7 +8,7 @@ import java.io.UnsupportedEncodingException;
 public class SystemOutTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 
 	 * @createDate Dec 13, 2010 12:26:36 PM
 	 * @param args
