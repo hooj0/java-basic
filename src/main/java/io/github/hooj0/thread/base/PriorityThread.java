@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.base;
 
 /**
- * <b>function:</b>线程优先级
+ * 线程优先级
  * @author hoojo
  * @createDate Nov 6, 2010 6:39:40 PM
  * @file PriorityThread.java
