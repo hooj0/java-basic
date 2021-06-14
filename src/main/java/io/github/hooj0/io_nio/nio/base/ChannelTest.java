@@ -1,4 +1,6 @@
-package io.github.hooj0.nio.base;
+package io.github.hooj0.io_nio.nio.base;
+
+import io.github.hooj0.BasedTests;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,10 +13,17 @@ import java.nio.channels.FileChannel.MapMode;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 
-public class ChannelTest {
+/**
+ * 通道测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/01/26 09:19:02
+ */
+@SuppressWarnings("ALL")
+public class ChannelTest extends BasedTests {
 
 	/**
-	 * <b>function:</b>
 	 * @author hoojo
 	 * @createDate Jan 2, 2011 3:10:02 PM
 	 * @param args
@@ -25,9 +34,11 @@ public class ChannelTest {
 		try {
 			String path = System.getProperty("user.dir");
 			File file = new File(path + "/file/temp.txt");
+
 			//创建FileInputStream，以该文件输入流创建FileChannel
 			in = new FileInputStream(file).getChannel();
-			System.out.println(file.length());
+			out(file.length());
+
 			//将FileChannel里的全部数据映射成ByteBuffer
 			MappedByteBuffer buffer = in.map(MapMode.READ_WRITE, 0, file.length());
 			out = new FileOutputStream(path + "/file/aaaa.txt").getChannel();
@@ -35,14 +46,15 @@ public class ChannelTest {
 			out.write(buffer);
 			//调用clear方法，复原limit、position的位置
 			buffer.clear();
-			
+
 			//使用GBK的字符集来创建解码器
 			Charset charset = Charset.forName("GBK");
 			//创建解码器（CharsetDocoder）对象
 			CharsetDecoder docoder = charset.newDecoder();
 			//使用解码器ByteBuffer转换成CharBuffer
 			CharBuffer charBuffer = docoder.decode(buffer);
-			System.out.println(charBuffer);
+
+			out(charBuffer);
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
