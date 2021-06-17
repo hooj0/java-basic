@@ -10,7 +10,7 @@ public class DocumentedTest {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 30, 2010 5:32:29 PM
 	 * @param args
