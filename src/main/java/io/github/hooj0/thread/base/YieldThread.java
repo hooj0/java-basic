@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.base;
 
 /**
- * <b>function:</b>yield线程
+ * yield线程
  * @author hoojo
  * @createDate Oct 31, 2010 5:12:16 PM
  * @file YieldThread.java
@@ -31,7 +31,7 @@ public class YieldThread extends Thread {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 31, 2010 5:22:16 PM
 	 * @param args
