@@ -10,7 +10,7 @@ public class MyArray {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 5, 2010 1:59:23 PM
 	 * @param args
