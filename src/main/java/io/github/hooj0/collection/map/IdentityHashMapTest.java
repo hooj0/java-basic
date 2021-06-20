@@ -5,7 +5,7 @@ import java.util.IdentityHashMap;
 public class IdentityHashMapTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 13, 2011 10:37:40 PM
 	 * @param args
