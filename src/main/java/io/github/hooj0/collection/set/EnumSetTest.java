@@ -7,7 +7,7 @@ import java.util.EnumSet;
 public class EnumSetTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 9, 2011 6:22:01 PM
 	 * @param args
