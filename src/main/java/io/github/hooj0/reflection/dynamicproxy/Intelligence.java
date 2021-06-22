@@ -15,14 +15,17 @@ import java.lang.reflect.Method;
  * @version 1.0
  */
 public class Intelligence implements InvocationHandler {
+
 	/**
 	 * 从哪里获得情报，目标对象
 	 */
 	private Object target;
+
 	/**
 	 * 线人都有的条件和技能
 	 */
 	private SkillHelper sh;
+
 	public Intelligence(SkillHelper sh) {
 		this.sh = sh;
 	}
