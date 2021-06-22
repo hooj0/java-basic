@@ -13,7 +13,7 @@ public class InvokeTest {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 5, 2010 4:13:43 PM
 	 * @param args
