@@ -4,7 +4,7 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 
 /**
- * <b>function:</b> 用UDP数据报协议通讯
+ *  用UDP数据报协议通讯
  * @author hoojo
  * @createDate Sep 23, 2010 3:17:12 PM
  * @file UDPChartServer.java
@@ -63,7 +63,7 @@ public class UDPChartServer {
 	
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 3:17:07 PM
 	 * @param args
