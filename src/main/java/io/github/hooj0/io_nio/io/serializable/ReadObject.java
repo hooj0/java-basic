@@ -8,7 +8,7 @@ import java.io.ObjectInputStream;
 public class ReadObject {
 
 	/**
-	 * <b>function:</b>
+	 *
 
 	 * @createDate Dec 13, 2010 2:58:51 PM
 	 * @param args
