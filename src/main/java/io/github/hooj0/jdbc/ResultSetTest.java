@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * <b>function:</b> ResultSet操作
+ *  ResultSet操作
  * @author hoojo
  * @createDate 2011-5-14 下午12:58:54
  * @file ResultSetTest.java
@@ -71,7 +71,7 @@ public class ResultSetTest {
 	
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate 2011-5-14 下午12:58:55
 	 * @param args
