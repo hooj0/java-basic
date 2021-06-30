@@ -6,7 +6,7 @@ import java.util.List;
 public class FixedSizeList {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 10, 2011 9:50:20 PM
 	 * @param args
