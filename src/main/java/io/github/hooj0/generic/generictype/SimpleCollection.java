@@ -27,7 +27,7 @@ public class SimpleCollection<T> {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 9:34:27 PM
 	 * @param args
