@@ -21,7 +21,7 @@ public class GenericType<T, F> {
 	}
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 9:30:02 PM
 	 * @param args
