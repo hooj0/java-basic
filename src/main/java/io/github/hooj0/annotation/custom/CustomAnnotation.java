@@ -1,7 +1,7 @@
 package io.github.hooj0.annotation.custom;
 
 /**
- * <b>function:</b>自定义annotation
+ * 自定义annotation
  * @author hoojo
  * @createDate Oct 30, 2010 2:29:09 PM
  * @file CustomAnnotation.java
