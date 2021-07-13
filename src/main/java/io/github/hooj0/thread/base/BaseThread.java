@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.base;
 
 /**
- * <b>function:</b>线程基本、简单操作
+ * 线程基本、简单操作
  * @author hoojo
  * @createDate Oct 31, 2010 1:12:47 PM
  * @file BaseThread.java
@@ -28,7 +28,7 @@ public class BaseThread extends Thread {
 		}
 	}
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 31, 2010 1:12:11 PM
 	 * @param args
