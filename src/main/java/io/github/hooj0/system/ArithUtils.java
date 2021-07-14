@@ -11,7 +11,7 @@ public class ArithUtils {
 	}
 	
 	/**
-	 * <b>function:</b>精确的计算2个数的和
+	 * 精确的计算2个数的和
 	 * @author hoojo
 	 * @createDate Feb 13, 2011 10:46:39 PM
 	 * @param v1 加数
@@ -23,7 +23,7 @@ public class ArithUtils {
 	}
 	
 	/**
-	 * <b>function:</b>精确计算2个数之差
+	 * 精确计算2个数之差
 	 * @author hoojo
 	 * @createDate Feb 13, 2011 10:51:26 PM
 	 * @param v1 减数
@@ -35,7 +35,7 @@ public class ArithUtils {
 	}
 	
 	/**
-	 * <b>function:</b>提供2个数的乘法运算
+	 * 提供2个数的乘法运算
 	 * @author hoojo
 	 * @createDate Feb 13, 2011 10:53:39 PM
 	 * @param v1 乘数
@@ -47,7 +47,7 @@ public class ArithUtils {
 	}
 	
 	/**
-	 * <b>function:</b>提供相对精确的除法运算，当发生除不尽的情况时，精确到小数点以后10位的数字四舍五入
+	 * 提供相对精确的除法运算，当发生除不尽的情况时，精确到小数点以后10位的数字四舍五入
 	 * @author hoojo
 	 * @createDate Feb 13, 2011 10:55:37 PM
 	 * @param v1 除数
@@ -62,7 +62,7 @@ public class ArithUtils {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Feb 13, 2011 9:26:29 PM
 	 * @param args
