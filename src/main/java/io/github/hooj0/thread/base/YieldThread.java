@@ -11,6 +11,7 @@ package io.github.hooj0.thread.base;
  * @email hoojo_@126.com
  * @version 1.0
  */
+@SuppressWarnings("ALL")
 public class YieldThread extends Thread {
 	
 	public YieldThread(){
@@ -37,14 +38,14 @@ public class YieldThread extends Thread {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//启动2条并发进程
-		YieldThread yt = new YieldThread("高级");
-		//将yt的优先级设置到最大
-		//yt.setPriority(Thread.MAX_PRIORITY);
-		yt.start();
+		// 启动2条并发进程
+		YieldThread advanced = new YieldThread("高级");
+		// 将 advanced 的优先级设置到最大
+		// advanced.setPriority(Thread.MAX_PRIORITY);
+		advanced.start();
 		
-		YieldThread yt2 = new YieldThread("低级");
-		//yt2.setPriority(Thread.MIN_PRIORITY);
-		yt2.start();
+		YieldThread elementary = new YieldThread("低级");
+		// elementary.setPriority(Thread.MIN_PRIORITY);
+		elementary.start();
 	}
 }
