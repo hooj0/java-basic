@@ -39,7 +39,7 @@ public class InsertFileContent {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 *
 
 	 * @createDate Dec 13, 2010 2:24:35 PM
 	 * @param args
