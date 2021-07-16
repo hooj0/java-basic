@@ -3,7 +3,7 @@ package io.github.hooj0.system;
 public class MathTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 15, 2011 10:11:35 PM
 	 * @param args
