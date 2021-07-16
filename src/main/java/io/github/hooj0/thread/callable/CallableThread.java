@@ -3,7 +3,7 @@ package io.github.hooj0.thread.callable;
 import java.util.concurrent.Callable;
 
 /**
- * <b>function:</b>用Callable实现线程
+ * 用Callable实现线程
  * @author hoojo
  * @createDate Nov 7, 2010 3:04:28 PM
  * @file CallableThread.java
