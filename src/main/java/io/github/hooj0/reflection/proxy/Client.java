@@ -1,5 +1,12 @@
 package io.github.hooj0.reflection.proxy;
 
+/**
+ * 客户端
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 11:56:51
+ */
 public class Client extends KillPerson{
 	private Killer killer;
 	
