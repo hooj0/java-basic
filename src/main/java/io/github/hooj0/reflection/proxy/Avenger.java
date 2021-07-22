@@ -3,7 +3,7 @@ package io.github.hooj0.reflection.proxy;
 public class Avenger {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 5:44:15 PM
 	 * @param args
