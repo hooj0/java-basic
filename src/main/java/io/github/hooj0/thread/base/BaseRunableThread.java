@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.base;
 
 /**
- * <b>function:</b> 用接口实现线程，重写run方法
+ *  用接口实现线程，重写run方法
  * @author hoojo
  * @createDate Oct 31, 2010 1:46:02 PM
  * @file BaseRunableThread.java
@@ -25,7 +25,7 @@ public class BaseRunableThread implements Runnable {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 31, 2010 1:23:11 PM
 	 * @param args
