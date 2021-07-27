@@ -6,7 +6,7 @@ import java.util.List;
 public class ListTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 9, 2011 7:46:19 PM
 	 * @param args
