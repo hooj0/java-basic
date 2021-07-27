@@ -8,7 +8,7 @@ import java.util.ResourceBundle;
 public class I18NResourceBundle {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Feb 21, 2011 11:17:49 PM
 	 * @param args
