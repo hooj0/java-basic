@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 public class ThreadPoolTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Nov 7, 2010 4:51:28 PM
 	 * @param args
