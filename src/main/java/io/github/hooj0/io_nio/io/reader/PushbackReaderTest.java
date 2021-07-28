@@ -7,7 +7,7 @@ import java.io.PushbackReader;
 public class PushbackReaderTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 
 	 * @createDate Dec 13, 2010 11:27:01 AM
 	 * @param args
