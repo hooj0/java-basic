@@ -3,7 +3,7 @@ package io.github.hooj0.exception;
 public class CatchDivTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Mar 3, 2011 10:06:48 PM
 	 * @param args
