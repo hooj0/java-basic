@@ -6,7 +6,7 @@ import java.io.RandomAccessFile;
 public class RandomAccessFileTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 
 	 * @createDate Dec 13, 2010 1:53:48 PM
 	 * @param args
