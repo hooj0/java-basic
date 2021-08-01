@@ -1,4 +1,4 @@
-package io.github.hooj0.io.file;
+package io.github.hooj0.io_nio.io.file;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
