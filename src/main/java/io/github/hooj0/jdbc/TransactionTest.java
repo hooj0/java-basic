@@ -5,7 +5,7 @@ import java.sql.Connection;
 import java.sql.Statement;
 
 /**
- * <b>function:</b> 事务处理
+ *  事务处理
  * @author hoojo
  * @createDate 2011-5-19 下午09:18:17
  * @file TransactionTest.java
