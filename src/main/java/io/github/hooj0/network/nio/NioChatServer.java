@@ -11,7 +11,7 @@ import java.nio.channels.SocketChannel;
 import java.nio.charset.Charset;
 
 /**
- * <b>function:</b> 使用nio通讯服务器端代码
+ *  使用nio通讯服务器端代码
  * @author hoojo
  * @createDate Sep 23, 2010 10:48:11 AM
  * @file NioChatServer.java
