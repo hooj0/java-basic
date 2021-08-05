@@ -8,7 +8,7 @@ import java.util.Vector;
 public class EnumerationTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 14, 2011 10:23:02 PM
 	 * @param args
