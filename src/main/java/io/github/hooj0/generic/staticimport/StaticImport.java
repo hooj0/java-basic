@@ -7,7 +7,7 @@ import static io.github.hooj0.generic.source.TestUtils.*;
 public class StaticImport {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 16, 2010 3:07:56 PM
 	 * @param args
