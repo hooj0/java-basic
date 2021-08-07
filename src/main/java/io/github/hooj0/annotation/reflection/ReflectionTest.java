@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 public class ReflectionTest {
 
     /**
-     * <b>function:</b>
+     *
      *
      * @param args
      * @author hoojo
