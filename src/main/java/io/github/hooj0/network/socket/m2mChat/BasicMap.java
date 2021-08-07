@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * <b>function:</b> 扩展HashMap,可以通过value找到对应的key
+ *  扩展HashMap,可以通过value找到对应的key
  * 并且value不能重复，通过value删除对应的key
  * @author hoojo
  * @createDate Sep 23, 2010 10:59:50 AM
@@ -22,7 +22,7 @@ public class BasicMap<K, V> extends HashMap<K, V> {
 	private static final long serialVersionUID = 534956123892560795L;
 
 	/**
-	 * <b>function:</b>根据value，删除map中的信息
+	 * 根据value，删除map中的信息
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 11:02:46 AM
 	 * @param value 值
@@ -37,7 +37,7 @@ public class BasicMap<K, V> extends HashMap<K, V> {
 	}
 	
 	/**
-	 * <b>function:</b>获取所有value的集合
+	 * 获取所有value的集合
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 11:03:26 AM
 	 * @return 得到所有value集合
@@ -52,7 +52,7 @@ public class BasicMap<K, V> extends HashMap<K, V> {
 	}
 	
 	/**
-	 * <b>function:</b>根据value查找key
+	 * 根据value查找key
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 11:03:56 AM
 	 * @param value 值
@@ -72,7 +72,7 @@ public class BasicMap<K, V> extends HashMap<K, V> {
 	/**
 	 * override
 	 * @see HashMap#put(Object, Object)
-	 * <b>function:</b> 重写HashMap的put方法
+	 *  重写HashMap的put方法
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 11:04:27 AM
 	 */
