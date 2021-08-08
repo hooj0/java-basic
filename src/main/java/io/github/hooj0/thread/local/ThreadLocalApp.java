@@ -1,4 +1,4 @@
-package io.github.hooj0.thread.variable;
+package io.github.hooj0.thread.local;
 
 /**
  * 线程本地测试
