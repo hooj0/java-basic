@@ -18,16 +18,11 @@ import java.nio.charset.CharsetDecoder;
  *
  * @author hoojo
  * @version 1.0
- * @date 2022/01/26 09:19:02
+ * @date Jan 2, 2011 3:10:02 PM
  */
 @SuppressWarnings("ALL")
 public class ChannelTest extends BasedTests {
 
-	/**
-	 * @author hoojo
-	 * @createDate Jan 2, 2011 3:10:02 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		FileChannel in = null;
 		FileChannel out = null;
