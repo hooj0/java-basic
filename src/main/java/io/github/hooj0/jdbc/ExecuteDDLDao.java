@@ -11,7 +11,7 @@ import java.sql.Statement;
 import java.sql.Types;
 
 /**
- *  执行SQL语句
+ * 执行SQL语句
  * @author hoojo
  * @createDate 2011-5-11 下午09:19:19
  * @file ExecuteDDLDao.java
@@ -69,7 +69,7 @@ public class ExecuteDDLDao {
 	}
 	
 	/**
-	 *  执行DLL语句
+	 * 执行DLL语句
 	 * @author hoojo
 	 * @createDate 2011-5-11 下午09:19:54
 	 * @param sql
