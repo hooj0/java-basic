@@ -5,5 +5,4 @@ public final class ConstomProtocol {
 	public static int PROTOCOL_LENGHT = 2;
 	public static String PRESENCE = "★【";
 	public static String SPLITTER = "※";
-	
 }
