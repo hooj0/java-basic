@@ -6,7 +6,7 @@ import java.util.Random;
 public class RandomTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Feb 13, 2011 8:55:08 PM
 	 * @param args
