@@ -10,7 +10,7 @@ import java.util.HashSet;
 public class CollectionEnumSetTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 9, 2011 6:43:06 PM
 	 * @param args
