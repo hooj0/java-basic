@@ -15,13 +15,6 @@ import java.util.Date;
  */
 public class SleepThread {
 
-	/**
-	 *
-	 * @author hoojo
-	 * @createDate Oct 31, 2010 5:10:18 PM
-	 * @param args
-	 * @throws InterruptedException 
-	 */
 	public static void main(String[] args) throws InterruptedException {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("time:" + new Date());
