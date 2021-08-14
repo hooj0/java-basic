@@ -3,15 +3,15 @@ package io.github.hooj0.io_nio.io.stream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * 文件输出流测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 12, 2010 11:11:00 PM
+ */
 public class FileOutputStreamTest {
 
-	/**
-	 * 
-
-	 * @createDate Dec 12, 2010 11:11:00 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		String path = System.getProperty("user.dir");
 		FileOutputStream fos = new FileOutputStream(path + "/file/write.txt");
