@@ -1,5 +1,7 @@
 package io.github.hooj0.jdbc;
 
+import io.github.hooj0.BasedTests;
+
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -17,7 +19,8 @@ import java.sql.SQLException;
  * @email hoojo_@126.com
  * @version 1.0
  */
-public class ResultSetTest {
+public class ResultSetTest extends BasedTests {
+
 	private Connection conn;
 	private PreparedStatement ps;
 	private ResultSet rs;
@@ -68,14 +71,6 @@ public class ResultSetTest {
 		}
 	}
 	
-	
-	
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate 2011-5-14 下午12:58:55
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		ResultSetTest test = new ResultSetTest();
 		test.updateResultSetRowData();
