@@ -12,11 +12,13 @@ package io.github.hooj0.thread.account.custom;
  * @version 1.0
  */
 public class DepositThread extends Thread {
+
 	private Account acc;
 	private double depositMoney;
-	public DepositThread(String name, Account acc, double depositMoney) {
+
+	public DepositThread(String name, Account account, double depositMoney) {
 		super(name);
-		this.acc = acc;
+		this.acc = account;
 		this.depositMoney = depositMoney;
 	}
 	
