@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class ServerSocketTest {
 
 	/**
-	 *  ServerSocket服务器端
+	 * ServerSocket服务器端
 	 * @author hoojo
 	 * @createDate Sep 22, 2010 11:45:38 AM
 	 * @param args
