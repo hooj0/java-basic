@@ -5,7 +5,7 @@ import java.util.TreeMap;
 public class TreeMapTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 12, 2011 11:04:48 PM
 	 * @param args
