@@ -1,4 +1,4 @@
-package io.github.hooj0.io.reader;
+package io.github.hooj0.io_nio.io.reader;
 
 import java.io.IOException;
 import java.io.StringReader;
