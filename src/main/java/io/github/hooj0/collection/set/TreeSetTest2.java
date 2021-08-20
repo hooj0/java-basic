@@ -5,7 +5,7 @@ import java.util.TreeSet;
 public class TreeSetTest2 {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 9, 2011 5:46:15 PM
 	 * @param args
