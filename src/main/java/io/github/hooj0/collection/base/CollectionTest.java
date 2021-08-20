@@ -7,7 +7,7 @@ import java.util.HashSet;
 public class CollectionTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 4, 2011 7:56:16 PM
 	 * @param args
