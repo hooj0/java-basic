@@ -8,7 +8,7 @@ import java.net.URLConnection;
 import java.util.Scanner;
 
 /**
- * <b>function:</b> 网络代理链接
+ *  网络代理链接
  * @author hoojo
  * @createDate Sep 24, 2010 3:04:05 PM
  * @file ProxyTest.java
@@ -59,7 +59,7 @@ public class ProxyTest {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Sep 24, 2010 3:04:01 PM
 	 * @param args
