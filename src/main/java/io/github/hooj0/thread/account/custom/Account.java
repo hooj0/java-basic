@@ -12,9 +12,11 @@ package io.github.hooj0.thread.account.custom;
  * @version 1.0
  */
 public class Account {
+
 	private String number;
 	private double money;
 	private boolean flag = false;
+
 	public String getNumber() {
 		return number;
 	}
