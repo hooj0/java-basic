@@ -5,7 +5,7 @@ import java.io.PipedReader;
 import java.io.PipedWriter;
 
 /**
- * <b>function:</b>线程输出流
+ * 线程输出流
  * @author hoojo
  * @createDate Nov 6, 2010 6:49:53 PM
  * @file WriterThread.java
