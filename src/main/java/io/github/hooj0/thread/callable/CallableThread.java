@@ -16,7 +16,7 @@ import java.util.concurrent.Callable;
  */
 public class CallableThread implements Callable<Integer> {
 
-    //call方法作为线程的执行体
+    // call方法作为线程的执行体
     @Override
     public Integer call() throws Exception {
         int i = 0;
