@@ -2,7 +2,7 @@ package io.github.hooj0.classloader.instance;
 
 public class Test2 {
 	/**
-	 * <b>function:</b>单例
+	 * 单例
 	 * @author hoojo
 	 * @createDate Oct 7, 2010 2:13:45 PM
 	 * @param args
