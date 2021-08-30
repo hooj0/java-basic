@@ -20,6 +20,7 @@ import java.util.Properties;
  * @version 1.0
  */
 public abstract class DBHelper {
+
 	private static String driver;
 	private static String url;
 	private static String user;
