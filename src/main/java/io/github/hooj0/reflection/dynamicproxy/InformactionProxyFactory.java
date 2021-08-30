@@ -3,7 +3,7 @@ package io.github.hooj0.reflection.dynamicproxy;
 import java.lang.reflect.Proxy;
 
 /**
- * <b>function:</b> 情报工厂代理
+ *  情报工厂代理
  * @author hoojo
  * @createDate Oct 6, 2010 7:01:54 PM
  * @file InformactionProxyFactory.java
@@ -15,7 +15,7 @@ import java.lang.reflect.Proxy;
  */
 public class InformactionProxyFactory {
 	/**
-	 * <b>function:</b>传入一个线人和一个劫匪
+	 * 传入一个线人和一个劫匪
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 7:39:59 PM
 	 * @param helper
