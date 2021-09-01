@@ -36,7 +36,7 @@ public class FileInputStreamTest {
 	 * 中文一个字2个字符
 	 * 这样就造成乱码
 	 * 
-	 *  int read(): 从输入流中读取单个字节
+	 * int read(): 从输入流中读取单个字节
 		int read(byte[] b): 从输入流中读取最多b.length个字节，将读取的字节存在数组b中，返回实际读取的字节数
 		int read(byte[] b, int off, int len): 从输入流中读取最多len个字节数据，并将其存储在数字b中，放入b数组中时，并不是从数组起点开始，而是从off位置开始，返回实际读取字节数。
 	
