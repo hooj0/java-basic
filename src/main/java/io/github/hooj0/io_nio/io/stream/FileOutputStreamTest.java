@@ -6,7 +6,7 @@ import java.io.IOException;
 public class FileOutputStreamTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 
 	 * @createDate Dec 12, 2010 11:11:00 PM
 	 * @param args
