@@ -14,7 +14,7 @@ public class ThreadLocalApp {
     public static void main(String[] args) {
 
         //启动2条线程，2条线程共享一个Account
-        Account acc = new Account("初始化值");
+        Account account = new Account("初始化值");
 
         /**
          * 虽然2条线程共享同一个账户，即只有一个账户名
@@ -23,7 +23,7 @@ public class ThreadLocalApp {
          * 各自的账户名副本，所以从i=6之后，将看到两条线程访问同一个账户
          * 时看到不同的用户名
          */
-        new AccountThread(acc, "A").start();
-        new AccountThread(acc, "B").start();
+        new AccountThread(account, "A").start();
+        new AccountThread(account, "B").start();
     }
 }
