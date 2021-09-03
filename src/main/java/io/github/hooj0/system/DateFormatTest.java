@@ -7,7 +7,7 @@ import java.util.Locale;
 public class DateFormatTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Feb 25, 2011 11:18:56 PM
 	 * @param args
