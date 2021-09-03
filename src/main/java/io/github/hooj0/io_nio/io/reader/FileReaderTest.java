@@ -3,18 +3,19 @@ package io.github.hooj0.io_nio.io.reader;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * 文件阅读器测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 12, 2010 7:35:50 PM
+ */
 public class FileReaderTest {
 
-	/**
-	 *
-
-	 * @createDate Dec 12, 2010 7:35:50 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		String path = System.getProperty("user.dir");
 		FileReader fr = null;
+
 		try {
 			//创建字节输入流
 			fr = new FileReader(path + "/file/temp1.txt");
@@ -28,7 +29,6 @@ public class FileReaderTest {
 				System.out.println(new String(c, 0, len));
 				System.out.println(new String(c));//读取不够的用字符“口”代替
 			}
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
