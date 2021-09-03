@@ -1,5 +1,7 @@
 package io.github.hooj0.network.socket;
 
+import io.github.hooj0.BasedTests;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,7 +9,14 @@ import java.io.PrintStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class ClientSocketTest {
+/**
+ * 客户端套接字测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 14:51:15
+ */
+public class ClientSocketTest extends BasedTests {
 
 	/**
 	 * Scoket客户端
@@ -30,9 +39,9 @@ public class ClientSocketTest {
 		BufferedReader br = new BufferedReader(new InputStreamReader(sk.getInputStream()));
 		//进行普通的IO操作
 		String sayMsg = br.readLine();
-		System.out.println("来自服务器端的问候：" + sayMsg);
+		out("来自服务器端的问候：" + sayMsg);
 		sayMsg = br.readLine();
-		System.out.println("来自服务器端的Message：" + sayMsg);
+		out("来自服务器端的Message：" + sayMsg);
 		PrintStream ps = new PrintStream(sk.getOutputStream());
 		ps.println("向服务器端发送消息1");
 		ps.println("向服务器端发送消息2");
