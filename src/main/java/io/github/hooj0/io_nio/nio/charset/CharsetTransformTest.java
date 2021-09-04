@@ -14,17 +14,11 @@ import java.nio.charset.CharsetEncoder;
  *
  * @author hoojo
  * @version 1.0
- * @date 2022/01/26 09:15:18
+ * @date Jan 2, 2011 4:56:43 PM
  */
 @SuppressWarnings("ALL")
 public class CharsetTransformTest extends BasedTests {
 
-	/**
-	 * @author hoojo
-	 * @createDate Jan 2, 2011 4:56:43 PM
-	 * @param args
-	 * @throws CharacterCodingException 
-	 */
 	public static void main(String[] args) throws CharacterCodingException {
 		Charset charset = Charset.forName("GBK");
 
