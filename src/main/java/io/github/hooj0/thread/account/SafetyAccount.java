@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.account;
 
 /**
- * <b>function:</b>线程安全的
+ * 线程安全的
  * @author hoojo
  * @createDate Nov 2, 2010 10:28:44 PM
  * @file SafetyAccount.java
@@ -30,7 +30,7 @@ public class SafetyAccount {
 	}
 	
 	/**
-	 * <b>function:</b>同步关键字synchronized修饰，线程安全的
+	 * 同步关键字synchronized修饰，线程安全的
 	 * 支持多线程并发操作
 	 * @author hoojo
 	 * @createDate Nov 2, 2010 10:32:12 PM
