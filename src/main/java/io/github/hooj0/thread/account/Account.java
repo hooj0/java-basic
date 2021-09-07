@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.account;
 
 /**
- * <b>function:</b>取款对象，非线程安全
+ * 取款对象，非线程安全
  * @author hoojo
  * @createDate Nov 2, 2010 10:28:01 PM
  * @file Account.java
