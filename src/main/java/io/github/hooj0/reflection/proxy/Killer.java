@@ -1,7 +1,7 @@
 package io.github.hooj0.reflection.proxy;
 
 /**
- *  杀手有杀人的本领，他可以随意杀人
+ * 杀手有杀人的本领，他可以随意杀人
  * @author hoojo
  * @createDate Oct 6, 2010 5:28:58 PM
  * @file Killer.java
@@ -12,6 +12,7 @@ package io.github.hooj0.reflection.proxy;
  * @version 1.0
  */
 public class Killer extends KillPerson {
+
 	/**
 	 * @see com.hoo.base.proxy.KillPerson#killPerson(String)
 	 *  杀手学到了杀人的方法
