@@ -14,16 +14,11 @@ import java.nio.charset.CharsetDecoder;
  *
  * @author hoojo
  * @version 1.0
- * @date 2022/01/26 09:25:34
+ * @date Jan 2, 2011 4:24:31 PM
  */
 @SuppressWarnings("ALL")
 public class ReadFileTest extends BasedTests {
 
-	/**
-	 * @author hoojo
-	 * @createDate Jan 2, 2011 4:24:31 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		FileChannel channel = null;
 		try {
