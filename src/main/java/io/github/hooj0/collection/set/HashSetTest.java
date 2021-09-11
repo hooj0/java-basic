@@ -6,7 +6,7 @@ import java.util.Iterator;
 public class HashSetTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 9, 2011 4:07:45 PM
 	 * @param args
