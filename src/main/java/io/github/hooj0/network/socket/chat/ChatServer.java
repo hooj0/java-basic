@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 /**
- * <b>function:</b> Socket通讯聊天服务器端人口函数 
+ *  Socket通讯聊天服务器端人口函数 
  * @author hoojo
  * @createDate Sep 23, 2010 10:54:21 AM
  * @file ChartServer.java
@@ -22,7 +22,7 @@ public class ChatServer {
 	public static ArrayList<Socket> socketList = new ArrayList<Socket>();
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Sep 22, 2010 12:53:08 PM
 	 * @param args
