@@ -14,7 +14,7 @@ import java.util.TreeSet;
 public class SynchronizedTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 14, 2011 9:31:07 PM
 	 * @param args
