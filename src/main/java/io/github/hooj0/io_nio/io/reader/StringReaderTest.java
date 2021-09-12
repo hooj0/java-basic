@@ -4,15 +4,15 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
 
+/**
+ * 字符串阅读器测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 13, 2010 12:13:42 AM
+ */
 public class StringReaderTest {
 
-	/**
-	 * 
-
-	 * @createDate Dec 13, 2010 12:13:42 AM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		String s = "这是一个字符串，this is a String";
 		StringReader sr = new StringReader(s);
@@ -30,5 +30,4 @@ public class StringReaderTest {
 		sw.write("is a String");
 		System.out.println(sw.toString());
 	}
-
 }
