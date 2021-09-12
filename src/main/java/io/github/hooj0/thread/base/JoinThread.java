@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.base;
 
 /**
- * <b>function:</b>join线程示例
+ * join线程示例
  * @author hoojo
  * @createDate Nov 6, 2010 6:38:15 PM
  * @file JoinThread.java
