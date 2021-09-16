@@ -1,5 +1,7 @@
 package io.github.hooj0.jdbc;
 
+import io.github.hooj0.BasedTests;
+
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
@@ -18,11 +20,10 @@ import java.sql.SQLException;
  * @email hoojo_@126.com
  * @version 1.0
  */
-public class DatabaseMetaDataTest {
+public class DatabaseMetaDataTest extends BasedTests {
 	
 	private Connection conn;
-	
-	
+
 	public DatabaseMetaDataTest() {
 		try {
 			DBHelper.loadParams(System.getProperty("user.dir") + "/src/jdbc.properties");
@@ -39,32 +40,32 @@ public class DatabaseMetaDataTest {
 			
 			//获取当前数据库支持所有表类型
 			ResultSet rs = dbmd.getTableTypes();
-			System.out.println("----当前数据库支持表类型----");
+			out("----当前数据库支持表类型----");
 			this.printTableTypes(rs);
 			
 			//获取当前数据库的所有表
 			rs = dbmd.getTables(null, null, "%", new String[] { "TABLE" });
-			System.out.println("-----当前数据库所有表信息----");
+			out("-----当前数据库所有表信息----");
 			this.printTableTypes(rs);
 			
 			//获取指定table的主键
 			rs = dbmd.getPrimaryKeys(null, null, "temp");
-			System.out.println("----获取当前表的主键信息----");
+			out("----获取当前表的主键信息----");
 			this.printTableTypes(rs);
 			
 			//获取当前数据库全部存储过程
 			rs = dbmd.getProcedures(null, null, "%");
-			System.out.println("-----当前数据库所有存储过程-----");
+			out("-----当前数据库所有存储过程-----");
 			//this.printTableTypes(rs);
 			
 			//获取某2个table的外键约束
 			rs = dbmd.getCrossReference(null, null, "tree", null, null, "temp");
-			System.out.println("-----显示当前2个table的外键约束-----");
+			out("-----显示当前2个table的外键约束-----");
 			printTableTypes(rs);
 			
 			//获取某个表的所有数据列
 			rs = dbmd.getColumns(null, null, "tree", "%");
-			System.out.println("----获取某个table的所有数据列----");
+			out("----获取某个table的所有数据列----");
 			printTableTypes(rs);
 			
 		} catch (Exception e) {
@@ -78,12 +79,12 @@ public class DatabaseMetaDataTest {
 		for (int i = 0, count = rsmd.getColumnCount(); i < count; i++) {
 			System.out.print(rsmd.getColumnName(i + 1) + "\t");
 		}
-		System.out.println();
+		out();
 		while (rs.next()) {
 			for (int i = 0, count = rsmd.getColumnCount(); i < count; i++) {
 				System.out.print(rsmd.getColumnName(i + 1) + " : " + rs.getString(i + 1) + "\t");
 			}
-			System.out.println();
+			out();
 		}
 		rs.close();
 	}
