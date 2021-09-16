@@ -1,7 +1,7 @@
 package io.github.hooj0.reflection.proxy;
 
 /**
- *  杀人的秘诀
+ * 杀人的秘诀
  * @author hoojo
  * @createDate Oct 6, 2010 5:29:34 PM
  * @file KillPerson.java
@@ -14,7 +14,7 @@ package io.github.hooj0.reflection.proxy;
 public abstract class KillPerson {
 
 	/**
-	 *  杀人的方法
+	 * 杀人的方法
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 5:30:09 PM
 	 * @param name
