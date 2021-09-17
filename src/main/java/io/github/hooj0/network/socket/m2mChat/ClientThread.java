@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 /**
- *  一对一、多对多聊天多线程
+ * 一对一、多对多聊天多线程
  * @author hoojo
  * @createDate Sep 23, 2010 11:11:34 AM
  * @file ClientThread.java
