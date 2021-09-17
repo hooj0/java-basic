@@ -6,6 +6,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
+/**
+ * 插入文件内容
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 13, 2010 2:24:35 PM
+ */
 public class InsertFileContent {
 	
 	public static void insert(String fileName, long pos, String insertContent) throws IOException {
@@ -38,13 +45,6 @@ public class InsertFileContent {
 		raf.close();
 	}
 	
-	/**
-	 *
-
-	 * @createDate Dec 13, 2010 2:24:35 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		String path = System.getProperty("user.dir");
 		InsertFileContent.insert(path + "/file/temp.txt", 22, "|this is a insert content|");
