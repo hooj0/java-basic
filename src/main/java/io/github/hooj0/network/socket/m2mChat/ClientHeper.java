@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
 import javax.swing.JOptionPane;
 
 /**
- * <b>function:</b> 多对多，一对多聊天主功能函数、入口函数
+ *  多对多，一对多聊天主功能函数、入口函数
  * @author hoojo
  * @createDate Sep 23, 2010 11:07:54 AM
  * @file ClientHeper.java
@@ -70,7 +70,7 @@ public class ClientHeper {
 	}
 	
 	/**
-	 * <b>function:</b> 读取用户输入数据，发送数据
+	 *  读取用户输入数据，发送数据
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 11:12:31 AM
 	 */
@@ -96,7 +96,7 @@ public class ClientHeper {
 	}
 	
 	/**
-	 * <b>function:</b> 关闭链接
+	 *  关闭链接
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 11:13:11 AM
 	 */
