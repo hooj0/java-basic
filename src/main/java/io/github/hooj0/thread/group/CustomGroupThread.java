@@ -7,6 +7,7 @@ package io.github.hooj0.thread.group;
  * @version 1.0
  * @date 2022/01/26 14:59:15
  */
+@SuppressWarnings("ALL")
 public class CustomGroupThread extends Thread {
 
     public CustomGroupThread(String name) {
