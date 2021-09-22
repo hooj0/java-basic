@@ -10,7 +10,7 @@ import java.util.Set;
 public class EnumMapTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 16, 2010 2:49:36 PM
 	 * @param args
