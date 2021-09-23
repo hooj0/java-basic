@@ -6,7 +6,7 @@ import java.util.Iterator;
 public class HashtableErrorTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Jan 12, 2011 10:21:22 PM
 	 * @param args
