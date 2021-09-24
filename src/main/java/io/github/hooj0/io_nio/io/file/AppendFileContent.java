@@ -3,15 +3,15 @@ package io.github.hooj0.io_nio.io.file;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
+/**
+ * 附加文件内容
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 13, 2010 2:05:31 PM
+ */
 public class AppendFileContent {
 
-	/**
-	 * 
-
-	 * @createDate Dec 13, 2010 2:05:31 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		String path = System.getProperty("user.dir");
 		//以读写的方式打开文件
