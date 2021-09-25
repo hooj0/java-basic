@@ -3,19 +3,19 @@ package io.github.hooj0.io_nio.io.base;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * 总是使用iomethod
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 12, 2010 4:24:23 PM
+ */
 public class AlwaysUsingIOMethod {
 	
 	public static final void fail(Object o) {
 		System.out.println(o.toString());
 	}
 	
-	/**
-	 *
-
-	 * @createDate Dec 12, 2010 4:24:23 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		String path = System.getProperty("user.dir");
 		
