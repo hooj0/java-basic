@@ -11,8 +11,11 @@ package io.github.hooj0.thread.base;
  * @email hoojo_@126.com
  * @version 1.0
  */
+@SuppressWarnings("ALL")
 public class StartDeadThread extends Thread {
+
 	private int i = 0;
+
 	@Override
 	public void run() {
 		for (; i < 100; i++) {
@@ -20,29 +23,23 @@ public class StartDeadThread extends Thread {
 		}
 	}
 
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Oct 31, 2010 3:48:25 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		StartDeadThread sdt = new StartDeadThread();
+		StartDeadThread deadThread = new StartDeadThread();
 		for (int i = 0; i < 300; i++) {
 			System.out.println(Thread.currentThread().getName() + "=" + i);
 			if (i < 20) {
-				//新建
-				//System.out.println(sdt.isAlive());
+				// 新建
+				//System.out.println(deadThread.isAlive());
 			}
 			if (i == 20) {
-				sdt.start();
-				//true未死亡，false表示死亡或新建
-				System.out.println(sdt.isAlive());
+				deadThread.start();
+				// true未死亡，false表示死亡或新建
+				System.out.println(deadThread.isAlive());
 			}
 			//线程运行到99就运行完run方法，此时线程死亡，无法重新启动
-			if (i > 20 && !sdt.isAlive()) {
-				//重复启动该线程
-				sdt.start();
+			if (i > 20 && !deadThread.isAlive()) {
+				// 重复启动该线程
+				deadThread.start();
 			}
 		}
 	}
