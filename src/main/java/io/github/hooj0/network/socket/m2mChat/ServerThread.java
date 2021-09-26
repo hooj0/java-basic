@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- *  服务器端一对一，多对多聊天，多线程核心功能
+ * 服务器端一对一，多对多聊天，多线程核心功能
  * @author hoojo
  * @createDate Sep 23, 2010 11:17:33 AM
  * @file ServerThread.java
