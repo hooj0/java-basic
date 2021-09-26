@@ -3,15 +3,15 @@ package io.github.hooj0.io_nio.io.writer;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * 文件写入测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 12, 2010 11:20:17 PM
+ */
 public class FileWriterTest {
 
-	/**
-	 *
-
-	 * @createDate Dec 12, 2010 11:20:17 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		String path = System.getProperty("user.dir");
 		FileWriter fw = new FileWriter(path + "/file/fw.txt");//和文件编码有关系
