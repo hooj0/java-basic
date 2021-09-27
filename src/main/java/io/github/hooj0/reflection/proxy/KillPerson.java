@@ -12,6 +12,7 @@ package io.github.hooj0.reflection.proxy;
  * @version 1.0
  */
 public abstract class KillPerson {
+
 	/**
 	 *  杀人的方法
 	 * @author hoojo
