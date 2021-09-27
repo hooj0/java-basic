@@ -5,203 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86c34318-4952-48d5-9871-7b4b628a8030" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/base/DeprecatedAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/base/DeprecatedAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/base/OverrideAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/base/OverrideAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/base/SubDeprecatedAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/base/SubDeprecatedAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/base/SupressWarningsAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/base/SupressWarningsAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/AnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/AnnotationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotationCustomField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotationCustomField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotationDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotationDefault.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotationDefaultValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotationDefaultValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotationField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotationField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotationFieldType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/custom/CustomAnnotationFieldType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/other/DocumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/other/DocumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/reflection/ReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/reflection/ReflectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/reflection/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/reflection/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/reflection/TestAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/annotation/reflection/TestAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/array/MultiArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/array/MultiArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classInit/ClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classInit/ClassLoaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classInit/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classInit/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classInit/TestInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classInit/TestInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classLoader/BootstrapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classLoader/BootstrapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classLoader/ClassLoaderProTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classLoader/ClassLoaderProTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classLoader/CustomClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classLoader/CustomClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classLoader/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/classLoader/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/field/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/field/GenericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/instance/CreateJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/instance/CreateJFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/instance/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/instance/MyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/instance/ObjectPoolFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/instance/ObjectPoolFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/instance/PoolFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/instance/PoolFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/instance/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/instance/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/proxy/example/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/proxy/example/DogTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/q1/TestA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/q1/TestA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/q1/TestB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/q1/TestB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/urlClassLoader/URLClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/classloader/urlClassLoader/URLClassLoaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/CollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/EnumerationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/EnumerationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/ForeachCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/ForeachCollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/IteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/PerformanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/PriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/PriorityQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/Season.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/base/StackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/collections/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/collections/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/collections/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/collections/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/collections/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/collections/SynchronizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/list/FixedSizeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/list/FixedSizeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/list/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/list/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/list/ListIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/list/ListIteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/list/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/list/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/list/ListTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/list/ListTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/EnumMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/EnumMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/HashtableErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/HashtableErrorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/HashtableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/HashtableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/IdentityHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/IdentityHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/LinkHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/LinkHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/NullInHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/NullInHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/PropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/PropertiesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/TreeMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/TreeMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/WeakHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/map/WeakHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/CollectionEnumSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/CollectionEnumSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/EnumSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/EnumSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/HashSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/LinkHashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/LinkHashSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/SetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/TreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/TreeSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/TreeSetTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/collection/set/TreeSetTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/exception/CatchDivTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/exception/CatchDivTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/exception/FAQTryCatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/exception/FAQTryCatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/boxing/AddCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/boxing/AddCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/boxing/BoxCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/boxing/BoxCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/enumcollection/EnumMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/enumcollection/EnumMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/enumcollection/EnumSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/enumcollection/EnumSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/enums/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/enums/EnumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/generictype/GenericType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/generictype/GenericType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/generictype/SimpleCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/generictype/SimpleCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/print/PrintSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/print/PrintSchool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/staticimport/StaticImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/generic/staticimport/StaticImport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/base/AlwaysUsingIOMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/base/AlwaysUsingIOMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/base/SystemInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/base/SystemInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/file/AppendFileContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/file/AppendFileContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/file/InsertFileContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/file/InsertFileContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/file/RandomAccessFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/file/RandomAccessFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/filefilter/FilenameFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/filefilter/FilenameFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/reader/FileReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/reader/FileReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/reader/InputStreamReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/reader/InputStreamReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/reader/PushbackReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/reader/PushbackReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/reader/StringReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/reader/StringReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/serializable/MultiObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/serializable/MultiObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/serializable/ReadObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/serializable/ReadObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/serializable/ReadUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/serializable/ReadUserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/serializable/WriteObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/serializable/WriteObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/serializable/WriteUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/serializable/WriteUserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/FileInputStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/FileInputStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/FileOutputStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/FileOutputStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/PrintStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/PrintStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/PushbackInputStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/PushbackInputStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/RuntimeInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/RuntimeInputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/RuntimeOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/RuntimeOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/SystemInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/SystemInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/SystemOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/stream/SystemOutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/writer/FileWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/io_nio/io/writer/FileWriterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/AddBatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/AddBatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/ConnectSQLServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/ConnectSQLServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/DBHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/DatabaseMetaDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/DatabaseMetaDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/ExecuteDDLDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/ExecuteDDLDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/ResultSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/ResultSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/TransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/jdbc/TransactionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/conn/URLConnSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/conn/URLConnSend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/download/DownLoadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/download/DownLoadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/download/ManyThreadDownLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/download/ManyThreadDownLoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/nio/NioChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/nio/NioChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/nio/NioChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/nio/NioChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/nio/ServerSocketChannelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/nio/ServerSocketChannelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/proxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/proxy/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/ClientSocketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/ClientSocketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/ServerSocketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/ServerSocketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/chat/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/chat/ChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/chat/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/chat/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/chat/ClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/chat/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/chat/ServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/BasicMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/BasicMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/BasicProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/BasicProtocol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/ClientHeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/ClientHeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/ClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/ServerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/ServerHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/socket/m2mChat/ServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/UDPChartClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/UDPChartClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/UDPChartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/UDPChartServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/MulticastSocketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/MulticastSocketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chart/ComUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chart/ComUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chart/LanChatFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chart/LanChatFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chart/LoadIcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chart/LoadIcon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chart/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chart/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chat/ComUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chat/ComUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chat/LanChatFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chat/LanChatFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chat/LoadIcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chat/LoadIcon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chat/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/network/udp/multicast/chat/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/GatherInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/GatherInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/InformactionProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/InformactionProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/Intelligence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/Intelligence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/Mobster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/Mobster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/SkillHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/SkillHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/XiGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/dynamicproxy/XiGui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/getclass/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/getclass/ClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/method/ArrayTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/method/ArrayTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/method/ArrayTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/method/ArrayTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/method/DeclaredMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/method/DeclaredMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/method/InvokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/method/InvokeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/proxy/Avenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/proxy/Avenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/proxy/KillPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/proxy/KillPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/proxy/Killer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/reflection/proxy/Killer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/ArithUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/ArithUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/BigDecimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/BigDecimalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/DateFormatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/DateFormatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/DateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/I18NResourceBundle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/I18NResourceBundle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/MathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/MathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/NumberFormatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/NumberFormatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/RandomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/RandomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/RegExpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/RegExpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/RuntimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/RuntimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/SimpleDateFormatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/SimpleDateFormatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/StringBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/StringBuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/TimeZoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/system/TimeZoneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/LockAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/LockAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/OperateAccountThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/OperateAccountThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/OperateLockAccountThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/OperateLockAccountThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/OperateSafetyAccountThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/OperateSafetyAccountThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/SafetyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/SafetyAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/condition/ConditionAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/condition/ConditionAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/condition/DepositThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/condition/DepositThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/condition/DrawMoneyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/condition/DrawMoneyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/condition/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/condition/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/custom/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/custom/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/custom/DepositThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/custom/DepositThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/custom/DrawMoenyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/custom/DrawMoenyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/custom/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/account/custom/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/BaseRunableThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/BaseRunableThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/BaseThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/BaseThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/DaemonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/DaemonThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/DeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/JoinThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/JoinThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/PriorityThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/PriorityThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/SleepThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/SleepThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/StartDeadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/StartDeadThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/YieldThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/base/YieldThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/awt/CBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/awt/ColorBoxApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/group/CustomGroupThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/local/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/local/AccountThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/local/ThreadLocalApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/pool/ThreadPoolApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/CBox2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/ColorBoxes2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/callable/CallableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/callable/CallableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/callable/CallableThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/callable/CallableThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/group/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/group/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/group/TestGroupThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/group/TestGroupThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/group/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/group/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/group/TestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/group/CustomExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/group/TestGroupThread.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/pool/RunnableThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/pool/RunnableThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/pool/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/pool/ThreadPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/pool/ThreadPoolTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/stream/ReaderThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/stream/ReaderThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/stream/WriterThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/stream/WriterThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/variable/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/variable/ThreadLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/variable/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/variable/AccountThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/hooj0/thread/variable/ThreadLocalTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +44,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -258,7 +90,7 @@
       <recent name="D:\work_private\java_basic\src\main\java\io\github\hooj0\network" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChannelTest">
+  <component name="RunManager" selected="Application.WriterThread">
     <configuration name="BufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.hooj0.io_nio.nio.base.BufferTest" />
       <module name="java_basic" />
@@ -311,6 +143,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ColorBoxApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.hooj0.thread.awt.ColorBoxApp" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.hooj0.thread.awt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.hooj0.thread.account.condition.Test" />
       <module name="java_basic" />
@@ -324,64 +169,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritedAnnotationTest.testChildClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadLocalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.hooj0.thread.local.ThreadLocalApp" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.hooj0.annotation.inher.*" />
+          <option name="PATTERN" value="io.github.hooj0.thread.local.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.hooj0.annotation.inher" />
-      <option name="MAIN_CLASS_NAME" value="io.github.hooj0.annotation.inher.InheritedAnnotationTest" />
-      <option name="METHOD_NAME" value="testChildClass" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritedAnnotationTest.testChildImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WriterThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.hooj0.thread.stream.WriterThread" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.hooj0.annotation.inher.*" />
+          <option name="PATTERN" value="io.github.hooj0.thread.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.hooj0.annotation.inher" />
-      <option name="MAIN_CLASS_NAME" value="io.github.hooj0.annotation.inher.InheritedAnnotationTest" />
-      <option name="METHOD_NAME" value="testChildImpl" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InheritedAnnotationTest.testParentClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.hooj0.annotation.inher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.hooj0.annotation.inher" />
-      <option name="MAIN_CLASS_NAME" value="io.github.hooj0.annotation.inher.InheritedAnnotationTest" />
-      <option name="METHOD_NAME" value="testParentClass" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriterThread" />
+        <item itemvalue="Application.ThreadLocalApp" />
+        <item itemvalue="Application.ColorBoxApp" />
         <item itemvalue="Application.ChannelTest" />
         <item itemvalue="Application.BufferTest" />
         <item itemvalue="Application.CharsetTransformTest" />
         <item itemvalue="Application.CharsetTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.InheritedAnnotationTest.testChildClass" />
-        <item itemvalue="JUnit.InheritedAnnotationTest.testChildImpl" />
-        <item itemvalue="JUnit.InheritedAnnotationTest.testParentClass" />
       </list>
     </recent_temporary>
   </component>
@@ -395,6 +218,7 @@
       <updated>1642750120340</updated>
       <workItem from="1642750121733" duration="2051000" />
       <workItem from="1643099736155" duration="7865000" />
+      <workItem from="1643165894750" duration="5932000" />
     </task>
     <servers />
   </component>
