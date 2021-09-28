@@ -6,7 +6,7 @@ import java.util.Date;
 public class ClassTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 2:43:30 PM
 	 * @param args
