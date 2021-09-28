@@ -5,7 +5,7 @@ import java.lang.reflect.Array;
 public class ArrayTest1 {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 3:33:27 PM
 	 * @param args
