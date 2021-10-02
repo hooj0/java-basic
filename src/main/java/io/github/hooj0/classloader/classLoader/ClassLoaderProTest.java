@@ -7,7 +7,7 @@ import java.util.Enumeration;
 public class ClassLoaderProTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Sep 28, 2010 7:09:37 PM
 	 * @param args
