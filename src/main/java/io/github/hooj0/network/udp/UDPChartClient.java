@@ -6,7 +6,7 @@ import java.net.InetAddress;
 import java.util.Scanner;
 
 /**
- * <b>function:</b> UDP通讯客户端
+ *  UDP通讯客户端
  * @author hoojo
  * @createDate Sep 23, 2010 4:35:45 PM
  * @file UDPChartClient.java
@@ -71,7 +71,7 @@ public class UDPChartClient {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 3:46:11 PM
 	 * @param args
