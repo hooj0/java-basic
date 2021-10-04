@@ -11,7 +11,7 @@ import java.sql.Statement;
 import java.sql.Types;
 
 /**
- * <b>function:</b> 执行SQL语句
+ *  执行SQL语句
  * @author hoojo
  * @createDate 2011-5-11 下午09:19:19
  * @file ExecuteDDLDao.java
@@ -37,7 +37,7 @@ public class ExecuteDDLDao {
 	}
 	
 	/**
-	 * <b>function:</b>执行DDL语句
+	 * 执行DDL语句
 	 * @author hoojo
 	 * @createDate 2011-5-9 下午09:34:11
 	 * @param sql
@@ -69,7 +69,7 @@ public class ExecuteDDLDao {
 	}
 	
 	/**
-	 * <b>function:</b> 执行DLL语句
+	 *  执行DLL语句
 	 * @author hoojo
 	 * @createDate 2011-5-11 下午09:19:54
 	 * @param sql
@@ -98,7 +98,7 @@ public class ExecuteDDLDao {
 	}
 	
 	/**
-	 * <b>function:</b>执行任意SQL语句
+	 * 执行任意SQL语句
 	 * @author hoojo
 	 * @createDate 2011-5-11 下午09:12:31
 	 * @param sql
@@ -141,7 +141,7 @@ public class ExecuteDDLDao {
 	}
 	
 	/**
-	 * <b>function:</b>Statement添加数据效率没有PrepareStatement速度快
+	 * Statement添加数据效率没有PrepareStatement速度快
 	 * @author hoojo
 	 * @createDate 2011-5-14 上午11:32:43
 	 * @return
@@ -172,7 +172,7 @@ public class ExecuteDDLDao {
 	}
 	
 	/**
-	 * <b>function:</b>prepareStatement添加数据比Statement速度快
+	 * prepareStatement添加数据比Statement速度快
 	 * @author hoojo
 	 * @createDate 2011-5-14 上午11:32:10
 	 * @return
@@ -204,7 +204,7 @@ public class ExecuteDDLDao {
 	}
 	
 	/**
-	 * <b>function:</b>statement登陆，可以sql注入
+	 * statement登陆，可以sql注入
 	 * @author hoojo
 	 * @createDate 2011-5-14 上午11:31:38
 	 * @param name
@@ -243,7 +243,7 @@ public class ExecuteDDLDao {
 	}
 	
 	/**
-	 * <b>function:</b>执行存储过程
+	 * 执行存储过程
 	 * @author hoojo
 	 * @createDate 2011-5-14 上午11:31:14
 	 * @return
