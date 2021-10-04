@@ -6,6 +6,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * 连接sqlserver
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/02/07 15:10:15
+ */
 public class ConnectSQLServer {
 
 	/**
