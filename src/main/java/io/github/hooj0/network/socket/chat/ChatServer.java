@@ -21,13 +21,6 @@ public class ChatServer {
 	//定义一个ArrayList保存客户端请求的Socket
 	public static ArrayList<Socket> socketList = new ArrayList<Socket>();
 	
-	/**
-	 * 
-	 * @author hoojo
-	 * @createDate Sep 22, 2010 12:53:08 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		ServerSocket ss = new ServerSocket(30000);
 		while (true) {
