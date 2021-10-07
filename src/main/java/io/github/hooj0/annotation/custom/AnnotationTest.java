@@ -85,7 +85,7 @@ public class AnnotationTest {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Oct 30, 2010 2:29:39 PM
 	 * @param args
