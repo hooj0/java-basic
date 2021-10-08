@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class InputStreamReaderTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 
 	 * @createDate Dec 13, 2010 12:28:56 AM
 	 * @param args
