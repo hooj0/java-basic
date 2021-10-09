@@ -21,7 +21,7 @@ public class Mobster implements GatherInformation {
 
 	/**
 	 * @see com.hoo.base.dynamicproxy.GatherInformation#message(String)
-	 *  匪徒放出的消息，真实的情报
+	 * 匪徒放出的消息，真实的情报
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 5:56:30 PM
 	 */
