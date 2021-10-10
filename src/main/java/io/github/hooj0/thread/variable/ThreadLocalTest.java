@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.variable;
 
 /**
- * <b>function:</b>
+ * 
  * @author hoojo
  * @createDate Nov 7, 2010 5:32:14 PM
  * @file ThreadLocalTest.java
@@ -14,7 +14,7 @@ package io.github.hooj0.thread.variable;
 public class ThreadLocalTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Nov 7, 2010 5:29:45 PM
 	 * @param args
