@@ -1,0 +1,4 @@
+user=com.hoo.base.instance.User
+user%name=myUser
+user%age=22
+user%sex=man
