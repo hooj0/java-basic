@@ -1,4 +1,4 @@
-package io.github.hooj0.io.writer;
+package io.github.hooj0.io_nio.io.writer;
 
 import java.io.FileWriter;
 import java.io.IOException;
