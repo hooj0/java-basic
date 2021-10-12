@@ -1,7 +1,7 @@
 package io.github.hooj0.thread.account.condition;
 
 /**
- * <b>function:</b>同步存款
+ * 同步存款
  * @author hoojo
  * @createDate Nov 6, 2010 6:53:30 PM
  * @file DepositThread.java
