@@ -5,7 +5,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * <b>function:</b>用Condition来操作线程，保持线程的同步
+ * 用Condition来操作线程，保持线程的同步
  * @author hoojo
  * @createDate Nov 2, 2010 10:28:01 PM
  * @file Account.java
