@@ -125,9 +125,9 @@ public class LoginFrame extends JFrame {
 			{
 				//初始化聊天通信类
 				comUtil = new ComUtils(lan);
-				final String loginMsg = ConstomProtocol.PRESENCE + nameField.getText() 
-					+ ConstomProtocol.SPLITTER + iconBox.getSelectedItem()
-					+ ConstomProtocol.PRESENCE;
+				final String loginMsg = ConstProtocol.PRESENCE + nameField.getText()
+					+ ConstProtocol.SPLITTER + iconBox.getSelectedItem()
+					+ ConstProtocol.PRESENCE;
 				comUtil.broadCastMsg(loginMsg);
 				//启动定时器每20秒广播一次在线信息
 				javax.swing.Timer timer = new javax.swing.Timer(1000 * 10, 
