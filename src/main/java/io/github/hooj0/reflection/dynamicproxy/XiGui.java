@@ -31,7 +31,7 @@ public class XiGui implements SkillHelper, GatherInformation {
 	
 	/**
 	 * @see com.hoo.base.dynamicproxy.GatherInformation#message(String)
-	 *  收集情报
+	 * 收集情报
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 7:25:47 PM
 	 */
