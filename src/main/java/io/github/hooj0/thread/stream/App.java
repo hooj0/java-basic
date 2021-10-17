@@ -10,7 +10,7 @@ import java.io.PipedWriter;
  * @version 1.0
  * @date 2022/01/26 15:06:11
  */
-public class StreamApp {
+public class App {
 
     public static void main(String[] args) {
         PipedWriter pw = null;
