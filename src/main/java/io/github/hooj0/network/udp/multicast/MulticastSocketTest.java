@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /***
- *  多点广播
+ * 多点广播
  * @author hoojo
  * @createDate Sep 23, 2010 4:38:19 PM
  * @file MulticaseSocketTest.java
