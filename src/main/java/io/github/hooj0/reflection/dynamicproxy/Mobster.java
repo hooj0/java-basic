@@ -12,10 +12,13 @@ package io.github.hooj0.reflection.dynamicproxy;
  * @version 1.0
  */
 public class Mobster implements GatherInformation {
+
 	private String name;
+
 	public Mobster(String name) {
 		this.name = name;
 	}
+
 	/**
 	 * @see com.hoo.base.dynamicproxy.GatherInformation#message(String)
 	 *  匪徒放出的消息，真实的情报
