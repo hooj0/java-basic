@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class LinkedListTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 10, 2011 10:17:30 PM
 	 * @param args
