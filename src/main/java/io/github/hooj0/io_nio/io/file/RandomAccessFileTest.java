@@ -3,15 +3,15 @@ package io.github.hooj0.io_nio.io.file;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
+/**
+ * 随机存取文件测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 13, 2010 1:53:48 PM
+ */
 public class RandomAccessFileTest {
 
-	/**
-	 *
-
-	 * @createDate Dec 13, 2010 1:53:48 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		String path = System.getProperty("user.dir");
 		//以只读的方式打开指定文件
