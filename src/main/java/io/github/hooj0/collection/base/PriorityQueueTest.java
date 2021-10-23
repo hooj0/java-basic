@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 public class PriorityQueueTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 12, 2011 9:24:49 PM
 	 * @param args
