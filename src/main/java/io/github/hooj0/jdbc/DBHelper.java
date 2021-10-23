@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 /**
- *  数据库连接助手类、工具类、辅助类
+ * 数据库连接助手类、工具类、辅助类
  * @author hoojo
  * @createDate 2011-5-9 下午09:36:00
  * @file DBHelper.java
@@ -28,7 +28,7 @@ public abstract class DBHelper {
 	private static Connection conn;
 	
 	/**
-	 *  加载参数信息
+	 * 加载参数信息
 	 * @author hoojo
 	 * @createDate May 9, 2011 9:25:45 PM
 	 * @param paramFile
@@ -49,7 +49,7 @@ public abstract class DBHelper {
 	}
 	
 	/**
-	 *  获得数据库连接
+	 * 获得数据库连接
 	 * @author hoojo
 	 * @createDate 2011-5-9 下午09:47:21
 	 * @return 返回数据库连接
@@ -71,7 +71,7 @@ public abstract class DBHelper {
 	}
 	
 	/**
-	 *  关闭数据库连接
+	 * 关闭数据库连接
 	 * @author hoojo
 	 * @createDate 2011-5-9 下午09:46:53
 	 * @return 关闭是否成功
