@@ -1,27 +1,52 @@
 package io.github.hooj0.thread.account;
 
-public class Test {
+import org.junit.Test;
+
+/**
+ * 账户测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date 2022/01/26 17:29:57
+ */
+public class AccountTest {
 
 	/**
+	 * 模拟取钱 账户
 	 *
 	 * @author hoojo
-	 * @createDate Oct 31, 2010 6:28:16 PM
-	 * @param args
+	 * @date 2022/01/26 17:34:35
 	 */
-	public static void main(String[] args) {
-		//Account acc = new Account("6554454548521369", 1000D);
-		//模拟取钱
-		//new OperateAccountThread("A", acc, 800).start();
-		//new OperateAccountThread("B", acc, 900).start();
-		
-		//线程安全方法，一样的效果
-		//SafetyAccount sa = new SafetyAccount("6554454548521369", 1000D);
-		//new OperateSafetyAccountThread("A", sa, 800).start();
-		//new OperateSafetyAccountThread("B", sa, 700).start();
-		
-		//带锁资源
-		LockAccount la = new LockAccount("6554454548521369", 1000D);
-		new OperateLockAccountThread("甲", la, 800).start();
-		new OperateLockAccountThread("乙", la, 800).start();
+	@Test
+	public void account() {
+		Account account = new Account("6554454548521369", 1000D);
+		new OperateAccountThread("A", account, 800).start();
+		new OperateAccountThread("B", account, 900).start();
+	}
+
+	/**
+	 * 安全账户: 线程安全方法，一样的效果
+	 *
+	 * @author hoojo
+	 * @date 2022/01/26 17:34:09
+	 */
+	@Test
+	public void safetyAccount() {
+		SafetyAccount safetyAccount = new SafetyAccount("6554454548521369", 1000D);
+		new OperateSafetyAccountThread("A", safetyAccount, 800).start();
+		new OperateSafetyAccountThread("B", safetyAccount, 700).start();
+	}
+
+	/**
+	 * 带锁资源帐户
+	 *
+	 * @author hoojo
+	 * @date 2022/01/26 17:33:55
+	 */
+	@Test
+	public void lockAccount() {
+		LockAccount lockAccount = new LockAccount("6554454548521369", 1000D);
+		new OperateLockAccountThread("甲", lockAccount, 800).start();
+		new OperateLockAccountThread("乙", lockAccount, 800).start();
 	}
 }
