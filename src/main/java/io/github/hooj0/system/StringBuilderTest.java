@@ -3,7 +3,7 @@ package io.github.hooj0.system;
 public class StringBuilderTest {
 
 	/**
-	 * <b>function:</b>
+	 *
 	 * @author hoojo
 	 * @createDate Jan 15, 2011 10:06:03 PM
 	 * @param args
