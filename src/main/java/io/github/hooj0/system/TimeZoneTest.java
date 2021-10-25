@@ -6,7 +6,7 @@ import java.util.TimeZone;
 public class TimeZoneTest {
 
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Feb 14, 2011 10:23:35 PM
 	 * @param args
