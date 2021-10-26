@@ -6,7 +6,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /***
- * <b>function:</b> 多线程下载
+ *  多线程下载
  * @author hoojo
  * @createDate Sep 23, 2010 10:50:18 AM
  * @file DownLoadTest.java
@@ -18,7 +18,7 @@ import java.net.URLConnection;
  */
 public class DownLoadTest {
 	/**
-	 * <b>function:</b>获得指定网络资源的长度、大小
+	 * 获得指定网络资源的长度、大小
 	 * @author hoojo
 	 * @createDate Sep 23, 2010 10:50:57 AM
 	 * @param url URLConnection
