@@ -18,7 +18,7 @@ public class OverrideAnnotation {
 	}
 	
 	/**
-	 * <b>function:</b>
+	 * 
 	 * @author hoojo
 	 * @createDate Oct 28, 2010 10:04:33 PM
 	 * @param args
