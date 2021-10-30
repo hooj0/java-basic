@@ -14,6 +14,7 @@ import java.lang.reflect.Proxy;
  * @version 1.0
  */
 public class InformactionProxyFactory {
+
 	/**
 	 * 传入一个线人和一个劫匪
 	 * @author hoojo
