@@ -1,5 +1,7 @@
 package io.github.hooj0.jdbc;
 
+import io.github.hooj0.BasedTests;
+
 import java.io.IOException;
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -21,7 +23,8 @@ import java.sql.Types;
  * @email hoojo_@126.com
  * @version 1.0
  */
-public class ExecuteDDLDao {
+public class ExecuteDDLDao extends BasedTests {
+
 	private Connection conn;
 	private Statement st;
 	private PreparedStatement ps;
@@ -50,7 +53,7 @@ public class ExecuteDDLDao {
 			st = conn.createStatement();
 			//执行DDL的SQL语句
 			int count = st.executeUpdate(sql);
-			System.out.println(count);
+			out(count);
 			flag = count > 0 ? true : false;
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -120,7 +123,7 @@ public class ExecuteDDLDao {
 					for (int i = 0; i < cols; i++) {
 						System.out.print(rsmd.getColumnName(i + 1) + ":" + rs.getString(i + 1) + "\t");
 					}
-					System.out.println();
+					out();
 				}
 			} else {
 				count = st.getUpdateCount();
@@ -155,7 +158,7 @@ public class ExecuteDDLDao {
 			for (int i = 0; i < 100; i++) {
 				st.executeUpdate("insert into temp values('st-" + i + "')");
 			}
-			System.out.println("Statement耗时：" + (System.currentTimeMillis() - start));
+			out("Statement耗时：" + (System.currentTimeMillis() - start));
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
@@ -187,7 +190,7 @@ public class ExecuteDDLDao {
 				ps.setString(1, "ps-" + i);
 				count = ps.executeUpdate();
 			}
-			System.out.println("prepareStatement耗时：" + (System.currentTimeMillis() - start));
+			out("prepareStatement耗时：" + (System.currentTimeMillis() - start));
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
@@ -259,7 +262,7 @@ public class ExecuteDDLDao {
 			//设置第三个参数输出参数、参数类型
 			cs.registerOutParameter(3, Types.INTEGER);
 			boolean flag = cs.execute();
-			System.out.println(flag);
+			out(flag);
 			//获得第三个参数
 			result = cs.getInt(3);
 		} catch (SQLException e) {
@@ -279,16 +282,16 @@ public class ExecuteDDLDao {
 	
 	public static void main(String[] args) throws IOException {
 		ExecuteDDLDao dao = new ExecuteDDLDao();
-		//System.out.println(dao.executeDML("create table temp( id int identity, name varchar(20) )"));
-		/*System.out.println(dao.executeDDL("/*insert into temp values('aaaa');" +
+		//out(dao.executeDML("create table temp( id int identity, name varchar(20) )"));
+		/*out(dao.executeDDL("/*insert into temp values('aaaa');" +
 				"insert into temp values('bbbb');" +
 				"select * from temp;" +
 				"update temp set name = 'eft'"));*/
-		//System.out.println(dao.executeSQL("update temp set name = 'jojo';"));
-		System.out.println(dao.executeSQL("select * from temp;"));
-		//System.out.println(dao.addByStatement());
-		//System.out.println(dao.add());
-		//System.out.println(dao.loginByStatement("st-a1' or 'a' = 'a"));
-		System.out.println(dao.callProc());
+		//out(dao.executeSQL("update temp set name = 'jojo';"));
+		out(dao.executeSQL("select * from temp;"));
+		//out(dao.addByStatement());
+		//out(dao.add());
+		//out(dao.loginByStatement("st-a1' or 'a' = 'a"));
+		out(dao.callProc());
 	}
 }
