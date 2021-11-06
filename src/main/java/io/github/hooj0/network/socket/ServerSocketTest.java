@@ -1,12 +1,21 @@
 package io.github.hooj0.network.socket;
 
+import io.github.hooj0.BasedTests;
+
 import java.io.IOException;
 import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ServerSocketTest {
+/**
+ * 服务器套接字测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Sep 22, 2010 11:45:38 AM
+ */
+public class ServerSocketTest extends BasedTests {
 
 	/**
 	 * ServerSocket服务器端
@@ -30,10 +39,10 @@ public class ServerSocketTest {
 			
 			//关闭Socket的输出流
 			s.shutdownOutput();
-			System.out.println("服务器真的关闭了吗？" + s.isClosed());
+			out("服务器真的关闭了吗？" + s.isClosed());
 			Scanner sc = new Scanner(s.getInputStream());
 			if (sc.hasNextLine()) {
-				System.out.println(sc.nextLine());
+				out(sc.nextLine());
 			}
 			ps.println("服务器对你说：你好！这是无法发送出去的消息！");
 			sc.close();
