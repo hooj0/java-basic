@@ -1,14 +1,9 @@
 package io.github.hooj0.network.udp.multicast.chart;
 
+import javax.swing.*;
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.MulticastSocket;
-import java.net.SocketAddress;
+import java.net.*;
 import java.util.ArrayList;
-
-import javax.swing.JOptionPane;
 
 /***
  * 聊天交互信息工具类
@@ -22,6 +17,7 @@ import javax.swing.JOptionPane;
  * @version 1.0
  */
 public class ComUtils {
+
 	//多点广播ip address
 	private static final String BROADCASE_IP = "230.0.0.1";;
 	//多点广播端口;DatagramSocket所用的端口为该端口-1
@@ -123,7 +119,7 @@ public class ComUtils {
 					//读取Socket中的数据，读到的数据放到singlePacket的封装数组中
 					singleSocket.receive(singlePacket);
 					//处理读到的信息
-					lan.proccessMsg(singlePacket, true);
+					lan.processMsg(singlePacket, true);
 				} catch (IOException e) {
 					if (singleSocket != null && !singleSocket.isClosed()) {
 						socket.close();
@@ -145,9 +141,9 @@ public class ComUtils {
 					//输出读到的内容
 					String msg = new String(inBuff, 0, inPacket.getLength());
 					//读到的内容是在线信息
-					if (msg.startsWith(ConstomProtocol.PRESENCE) && msg.endsWith(ConstomProtocol.PRESENCE)) {
-						String userMsg = msg.substring(ConstomProtocol.PROTOCOL_LENGHT, msg.length() - ConstomProtocol.PROTOCOL_LENGHT);
-						String[] userInfo = userMsg.split(ConstomProtocol.SPLITTER);
+					if (msg.startsWith(CustomProtocol.PRESENCE) && msg.endsWith(CustomProtocol.PRESENCE)) {
+						String userMsg = msg.substring(CustomProtocol.PROTOCOL_LENGHT, msg.length() - CustomProtocol.PROTOCOL_LENGHT);
+						String[] userInfo = userMsg.split(CustomProtocol.SPLITTER);
 						UserInfo user = new UserInfo(userInfo[0], userInfo[1], inPacket.getSocketAddress(), 0);
 						//是否需要添加用户图标
 						boolean addFlag = true;
@@ -175,7 +171,7 @@ public class ComUtils {
 							lan.addUser(user);
 						}
 					} else {//公聊内容
-						lan.proccessMsg(inPacket, false);
+						lan.processMsg(inPacket, false);
 					}
 				} catch (Exception e) {
 					if (socket != null && !socket.isClosed()) {
