@@ -6,15 +6,15 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Scanner;
 
+/**
+ * 运行时输出流
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 13, 2010 1:11:12 PM
+ */
 public class RuntimeOutputStream {
 
-	/**
-	 *
-
-	 * @createDate Dec 13, 2010 1:11:12 PM
-	 * @param args
-	 * @throws IOException 
-	 */
 	public static void main(String[] args) throws IOException {
 		//运行java ReadStandard命令，返回该命令子进程
 		Process p = Runtime.getRuntime().exec("java " + System.getProperty("user.dir") + "/src/com/hoo/io/stream/ReadStandard");
