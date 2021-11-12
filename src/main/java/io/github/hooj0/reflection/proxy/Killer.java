@@ -15,7 +15,7 @@ public class Killer extends KillPerson {
 
 	/**
 	 * @see com.hoo.base.proxy.KillPerson#killPerson(String)
-	 *  杀手学到了杀人的方法
+	 * 杀手学到了杀人的方法
 	 * @author hoojo
 	 * @createDate Oct 6, 2010 5:30:30 PM
 	 */
