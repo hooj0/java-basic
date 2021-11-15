@@ -4,15 +4,15 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
+/**
+ * 打印流测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 12, 2010 11:36:22 PM
+ */
 public class PrintStreamTest {
 
-	/**
-	 * 
-
-	 * @createDate Dec 12, 2010 11:36:22 PM
-	 * @param args
-	 * @throws FileNotFoundException 
-	 */
 	public static void main(String[] args) throws FileNotFoundException {
 		/**
 		 * 用PrintStream包装FileOutputStream
