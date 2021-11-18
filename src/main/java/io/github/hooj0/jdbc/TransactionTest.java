@@ -1,5 +1,7 @@
 package io.github.hooj0.jdbc;
 
+import io.github.hooj0.BasedTests;
+
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.Statement;
@@ -15,12 +17,11 @@ import java.sql.Statement;
  * @email hoojo_@126.com
  * @version 1.0
  */
-public class TransactionTest {
+public class TransactionTest extends BasedTests {
 	
 	private Connection conn;
 	private Statement sm;
-	
-	
+
 	public TransactionTest() {
 		try {
 			DBHelper.loadParams(System.getProperty("user.dir") + "/src/jdbc.properties");
