@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 /**
- *  Socket通讯聊天服务器端人口函数 
+ * Socket通讯聊天服务器端人口函数 
  * @author hoojo
  * @createDate Sep 23, 2010 10:54:21 AM
  * @file ChartServer.java
