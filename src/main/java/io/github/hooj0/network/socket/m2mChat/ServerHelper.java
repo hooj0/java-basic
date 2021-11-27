@@ -6,7 +6,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- *  一对一，多对多聊天服务器端核心函数、入口函数
+ * 一对一，多对多聊天服务器端核心函数、入口函数
  * @author hoojo
  * @createDate Sep 23, 2010 11:13:36 AM
  * @file ServerHelper.java
@@ -49,7 +49,7 @@ public class ServerHelper {
 	
 	
 	/**
-	 *  测试服务器
+	 * 测试服务器
 	 * @author hoojo
 	 * @createDate Sep 22, 2010 2:46:54 PM
 	 * @param args
