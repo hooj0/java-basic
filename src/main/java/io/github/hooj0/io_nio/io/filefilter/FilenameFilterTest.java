@@ -3,14 +3,15 @@ package io.github.hooj0.io_nio.io.filefilter;
 import java.io.File;
 import java.io.FilenameFilter;
 
+/**
+ * 文件名过滤器测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 12, 2010 5:42:16 PM
+ */
 public class FilenameFilterTest {
 
-	/**
-	 * 
-
-	 * @createDate Dec 12, 2010 5:42:16 PM
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		File file = new File(".");
 		String[] names = file.list(new FilenameFilter() {
