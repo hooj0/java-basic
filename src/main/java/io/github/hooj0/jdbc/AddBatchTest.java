@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- *  批量更新
+ * 批量更新
  * @author hoojo
  * @createDate 2011-5-21 下午03:24:43
  * @file AddBatchTest.java
