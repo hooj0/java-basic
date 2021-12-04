@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- *  ResultSet操作
+ * ResultSet操作
  * @author hoojo
  * @createDate 2011-5-14 下午12:58:54
  * @file ResultSetTest.java
