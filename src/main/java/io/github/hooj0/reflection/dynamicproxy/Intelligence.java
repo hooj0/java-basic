@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- *  情报人员——线人
+ * 情报人员——线人
  * @author hoojo
  * @createDate Oct 6, 2010 5:59:33 PM
  * @file Intelligence.java
