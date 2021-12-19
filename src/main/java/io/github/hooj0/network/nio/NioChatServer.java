@@ -1,5 +1,7 @@
 package io.github.hooj0.network.nio;
 
+import io.github.hooj0.BasedTests;
+
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -11,7 +13,7 @@ import java.nio.channels.SocketChannel;
 import java.nio.charset.Charset;
 
 /**
- *  使用nio通讯服务器端代码
+ * 使用nio通讯服务器端代码
  * @author hoojo
  * @createDate Sep 23, 2010 10:48:11 AM
  * @file NioChatServer.java
@@ -21,7 +23,7 @@ import java.nio.charset.Charset;
  * @email hoojo_@126.com
  * @version 1.0
  */
-public class NioChatServer {
+public class NioChatServer extends BasedTests {
 	//用于检定所有的Channel状态的Selector
 	private Selector selector = null;
 	
@@ -70,7 +72,7 @@ public class NioChatServer {
 							content += charset.decode(bf);
 						}
 						//打印从sk中读取的数据
-						System.out.println("######" + content);
+						out("######" + content);
 						//设置sk对应的Channel为准备下一次读取
 						sk.interestOps(SelectionKey.OP_READ);
 					} catch (Exception e) {
