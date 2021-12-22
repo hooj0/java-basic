@@ -1,14 +1,22 @@
 package io.github.hooj0.io_nio.io.stream;
 
+import io.github.hooj0.BasedTests;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class FileInputStreamTest {
+/**
+ * 文件输入流测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 12, 2010 7:12:00 PM
+ */
+public class FileInputStreamTest extends BasedTests {
 
 	/**
 	 * 输入流InputStream
 	 * FileInputStream 节点流，会直接和指定的文件关联
-
 	 * @createDate Dec 12, 2010 7:12:00 PM
 	 * @param args
 	 * @throws IOException 
@@ -23,9 +31,9 @@ public class FileInputStreamTest {
 		int len = 0;
 		while ((len = fis.read(bf)) > 0) {
 			//提取数组中的数据
-			System.out.println(new String(bf, 0, len));//temp1 gbk保存编码
-			System.out.println(new String(bf));//temp1 gbk保存编码
-			System.out.println(new String(bf, "gbk"));//temp保存编码UTF-8
+			out(new String(bf, 0, len));//temp1 gbk保存编码
+			out(new String(bf));//temp1 gbk保存编码
+			out(new String(bf, "gbk"));//temp保存编码UTF-8
 		}
 		//关闭输入流，这样垃圾回收才能回收资源
 		fis.close();
