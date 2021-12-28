@@ -5,16 +5,15 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 
+/**
+ * 系统测试
+ *
+ * @author hoojo
+ * @version 1.0
+ * @date Dec 13, 2010 12:26:36 PM
+ */
 public class SystemOutTest {
 
-	/**
-	 * 
-
-	 * @createDate Dec 13, 2010 12:26:36 PM
-	 * @param args
-	 * @throws FileNotFoundException 
-	 * @throws UnsupportedEncodingException 
-	 */
 	public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
 		String path = System.getProperty("user.dir");
 		
